@@ -4,7 +4,7 @@
 
 Internet no és el mateix que el web. Internet és més gran, més antic i més variat.
 
-Imagineu com les **carreteres** estan _interconectades_ a tot el món: els carrers petits es connecten amb carrils urbans que es converteixen en carreteres regionals que després es fusionen amb carreteres nacionals i internacionals. Podeu conduir des de casa vostra a qualsevol altra casa del món [^ 1]. Tampoc no hi ha cap centre real en aquesta xarxa viària.
+Imagineu com les **carreteres** estan _interconectades_ a tot el món: els carrers petits es connecten amb carrils urbans que es converteixen en carreteres regionals que després es fusionen amb carreteres nacionals i internacionals. Podeu conduir des de casa vostra a qualsevol altra casa del món. Tampoc no hi ha cap centre real en aquesta xarxa viària.
 
 Internet és similar. Però en lloc de carreteres, són **cables**. I en lloc de cases, són **ordinadors**. I en lloc de cotxes que viatgen per aquesta xarxa, és **informació**.
 
@@ -131,10 +131,10 @@ Protocol
 : Un conjunt de regles, com un **idioma**, en què els ordinadors **es comuniquen** entre si.
 
 Adreça IP
-: Una combinació de **números** com a "91.198.174.192" que actua com un **identificador únic** per a un equip connectat a Internet
+: Una combinació de **números** com a "62.97.127.126" que actua com un **identificador únic** per a un equip connectat a Internet
 
 Domini
-: Un **text** com a `marksheet.io` que actua com un **identificador únic** per a un equip connectat a Internet. La diferència amb les adreces IP és que els dominis són més fàcils de llegir per als **humans**.
+: Un **text** com a `gegantsvilanovailageltru.cat` que actua com un **identificador únic** per a un equip connectat a Internet. La diferència amb les adreces IP és que els dominis són més fàcils de llegir per als **humans**.
 
 ### Preguntes que heu de ser capaços de respondre
 
