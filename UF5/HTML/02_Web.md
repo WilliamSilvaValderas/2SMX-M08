@@ -1,108 +1,101 @@
-# La World Wide Web [EN CONSTRUCCIÓ]
+# La World Wide Web
 
 ## El web és una part d’Internet: la part HTTP
 
 ### Web
 
-hem vist que els ordinadors connectats en la Internet comunica en llengües diferents protocols *anomenats**, per intercanviar e-mails, fitxers, xerrar missatges...
+Hem vist com els ordinadors connectats a Internet es comuniquen en diferents idiomes anomenats **protocols**, per intercanviar correus electrònics, fitxers, missatges de xat ...
 
-Un d'aquests protocols és anomenat *HTTP**. És el protocol amb quins ordinadors comparteixen **Webpages** entre cadascú altre, com l'actualment estàs llegint.
+Un d’aquests protocols s’anomena **HTTP**. És el protocol amb el qual els equips comparteixen **pàgines web** entre si, com el que esteu llegint actualment.
 
-El *Web** és la part de la Internet on Webpages és compartit. Pots dir estàs explorant el Web si el URL inicis amb `https://`.
+El **web** és la part d’Internet on es comparteixen les pàgines web. Podeu saber que esteu navegant per la web si l'URL comença per 'http: // ¡ o per 'https: //'.
 
-### Webpage
+### Pàgina web
 
-Un Webpage és un *document** escrit en HTML que és compartit a través del *Web**.
+Una pàgina web és un **document** escrit en HTML que es comparteix a través del **web**.
 
-Tu obert aquests documents amb un *navegador de Web**.
+Obriu aquests documents amb un **navegador web**.
 
-Per accedir un Webpage pots tampoc:
+Per accedir a una pàgina web podeu:
 
-* tipus el seu **URL**, com `https://clic/de`
-* web.html del marksheet.io en un *nexe**, com [això u](https://internet.html/marksheet.io)
+* escriviu el seu **URL**, com ara `http: // gegantsvilanovailageltru.cat / gegants-grossos.html`
+* feu clic a un **enllaç**, com [aquest](http://gegantsvilanovailageltru.cat/gegants-grossos.html)
 
-Perquè recordant URLs és pesat, el Web al seu origen és basat a **interlinked documents** per fer fàcils per a usuaris per _explorar_ el Web.
+Com que recordar URL és feixuc, el lloc web es basa en **documents interconnectats** mitjançant enllaços per facilitar als usuaris la navegació per Internet.
 
 ### Lloc web
 
-Un *Lloc web** és senzillament una _col·lecció_ de Webpages localitzat en un *mateix àmbit**.
+Un **lloc web** és simplement una col·lecció de pàgines web ubicades en un **mateix domini**.
 
-* *Https** `de web://`
-  * marksheet.io `de Lloc web`
-    * Webpage `/introduction.html`
-    * Webpage `/internet.html`
-    * Webpage `/#el web.html`
+* **Web** "http: //"
+  * Lloc web `gegantsvilanovailageltru.cat`
+    * Pàgina web `/ gegants-grossos.html`
+    * Pàgina web `/ gegants-de-la-geltru.html`
+    * Pàgina web `/ gegants-petits.html`
 
-### que #Obrir un Webpage en el vostre navegador
+### Obrir una pàgina web al navegador
 
-Per navigating a <https://marksheet.io/web.html>, estàs preguntant un ordinador en la Internet per rebre el `document` web.html.
+En navegar a <http://gegantsvilanovailageltru.cat/gegants-petits.html>, demaneu a un ordinador d'Internet que obtingui el document `gegants-petits.html`.
 
-En aquest cas, el vostre ordinador és el *client**. Estàs preguntant el MarkSheet *servidor** (en el qual el lloc web és acollit) per rebre el fitxer web.html `anomenat`.
+En aquest cas, el vostre ordinador és el **client**. Sol·liciteu al servidor MarkSheet (on es troba allotjat el lloc web) que obtingui el fitxer anomenat `gegants-petits.html`.
 
-<div class="table">
+<div class = "table">
   <table>
     <tr>
       <th>
-        <em>Client</em>
-        <strong>El vostre ordinador</strong>
+        <em> Client </em>
+        <strong> El vostre ordinador </strong>
       </th>
       <td>
-        <q>Hola MarkSheet ordinador! M'agradaria el <code>fitxer</code> web.html per favor</q>
+        <q> Hola ordinador gegantsvilanovailageltru.cat M'agradaria que el fitxer <code> gegants-petits.html </code> si us plau </q>
       </td>
     </tr>
     <tr>
       <th>
-        <em>Servidor</em>
-        <strong>El MarkSheet ordinador</strong>
+        <em> Servidor </em>
+        <strong> L'equip gegantsvilanovailageltru.cat  </strong>
       </th>
       <td>
-        <q>Deixa'm comprovar si és allà... </q>
+        <q> Permeteu-me comprovar si hi és ... </q>
       </td>
     </tr>
     <tr>
       <th>
-        <em>Client</em>
-        <strong>El vostre ordinador</strong>
+        <em> Client </em>
+        <strong> El vostre ordinador </strong>
       </th>
       <td>
-        <q>Ok Esperaré</q>
+        <q> D'acord, esperaré </q>
       </td>
     </tr>
     <tr>
       <th>
-        <em>Servidor</em>
-        <strong>El MarkSheet ordinador</strong>
+        <em> Servidor </em>
+        <strong> L'equip gegantsvilanovailageltru.cat  </strong>
       </th>
       <td>
-        <q>Oh, aquí és! Deixa'm envia que a tu.</q>
+        <q> Ah, aquí ho teniu! Permeteu-me que us enviï. </q>
       </td>
     </tr>
     <tr>
       <th>
-        <em>Client</em>
-        <strong>El vostre ordinador</strong>
+        <em> Client </em>
+        <strong> El vostre ordinador </strong>
       </th>
       <td>
-        <q>Rebut el. Gràcies!</q>
+        <q> Ho he entès. Gràcies! </q>
       </td>
     </tr>
   </table>
 </div>
 
-El vostre navegador és llavors capaç de mostrar `web.html`.
+El vostre navegador pot mostrar "web.html".
 
-El fitxer no *és salvat** en el vostre ordinador encara que: és només mostrat temporalment mentre et navigate el. Si anar a més <https://marksheet.io/web.html> tard, preguntarà el MarkSheet ordinador _de bell nou_ per aquell mateix fitxer, si encara existeix. Aquell camí, t'assegura sempre rebre la _versió_ més tardana del fitxer.
+El fitxer **no està desat** al vostre ordinador: només es mostra temporalment mentre hi navegueu. Si aneu a <http://gegantsvilanovailageltru.cat/gegants-petits.html> més endavant, demanarà a l'ordinador gegantsvilanovailageltru.cat _de nou_ el mateix fitxer, si encara existeix. D’aquesta manera, us garanteix obtenir sempre la versió més recent del fitxer.
 
-Web
-: La part de la Internet aquells usos el *protocol** d'HTTP.
+### Preguntes que heu de ser capaços de respondre
 
-Webpage
-: Un document escrit en *HTML**.
-
-Lloc web
-: Una col·lecció de Webpages en el mateix *àmbit**.
-
-Navegador
-: Un programa que pot *obrir** Webpages en ordre de mostrar-los.
-
-[HTTP]: Protocol de Trasllat de l'Hipertext
+1. Defineix que és la web
+2. Què és una pàgina web
+3. Què és un lloc web
+4. Defineix que és un navegador

@@ -43,8 +43,8 @@ Fes proves, incorpora les etiquetes següents, buscant previament a l'enllaç an
 
 ### Preguntes que heu de ser capaços de respondre
 
-* Què vol dir HTML?
-* Quina diferència hi ha entre escriure un document word/writer i escriure una pàgina web?
-* Què vol dir WYSIWYG?
-* Una de les tasques principals d'un navegador web és "interpretar" les pàgines web. Què creus que vol dir això?
-* Per a què serveixen les etiquetes que hem vist avui?
+1. Què vol dir HTML?
+2. Quina diferència hi ha entre escriure un document word/writer i escriure una pàgina web?
+3. Què vol dir WYSIWYG?
+4. Una de les tasques principals d'un navegador web és "interpretar" les pàgines web. Què creus que vol dir això?
+5. Per a què serveixen les etiquetes que hem vist avui? (H1, H2, H3, H4, P, A, B, I)

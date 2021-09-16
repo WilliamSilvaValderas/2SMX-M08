@@ -40,7 +40,7 @@ Una adreça IP, amb la versió més comu, la 4, sembla una combinació de 4 núm
 
 Tot i que les adreces IP són útils perquè els equips es distingeixin gràcies a la seva singularitat, són difícils de llegir i recordar per a nosaltres, els humans.
 
-És per això que es van crear **dominis** el 1985. _Associen_ una adreça IP com "91.62.97.127.126" amb una cadena de **text** com a "cruzroja.es". Com a resultat, tots dos són **intercanviables**: podeu anar a <http://62.97.127.126> o <http://cruzroja.es> i acabar al mateix lloc web.
+És per això que es van crear **dominis** el 1985. _Associen_ una adreça IP com "62.97.127.126" amb una cadena de **text** com a "cruzroja.es". Com a resultat, tots dos són **intercanviables**: podeu anar a <http://62.97.127.126> o <http://cruzroja.es> i acabar al mateix lloc web.
 
 Un domini té **3** parts, que es llegeixen de dreta a esquerra:
 
@@ -122,23 +122,9 @@ Aquest URL és **única** i defineix:
 
 Els URL poden tenir un aspecte més complex. Podeu llegir sobre [les parts que composen una URL](https://edytapukocz.com/url-partes-ejemplos-facil/).
 
-### Conceptes claus
-
-Internet
-: Una **xarxa** gran d' **ordinadors** connectats entre si.
-
-Protocol
-: Un conjunt de regles, com un **idioma**, en què els ordinadors **es comuniquen** entre si.
-
-Adreça IP
-: Una combinació de **números** com a "62.97.127.126" que actua com un **identificador únic** per a un equip connectat a Internet
-
-Domini
-: Un **text** com a `gegantsvilanovailageltru.cat` que actua com un **identificador únic** per a un equip connectat a Internet. La diferència amb les adreces IP és que els dominis són més fàcils de llegir per als **humans**.
-
 ### Preguntes que heu de ser capaços de respondre
 
-* Definir Internet, Protocol, Adreça IP
-* Coneixer els protocols FTP, SMTP, IMAP, IRC, HTTP
-* Identificar les parts d'una URL
-* Identificar les parts d'un domini i saber els diferents tipus de dominis que hi ha.
+1. Definir Internet, Protocol, Adreça IP
+2. Coneixer els protocols FTP, SMTP, IMAP, IRC, HTTP
+3. Identificar les parts d'una URL
+4. Definir que és un domini, identificar les parts d'un domini i saber els diferents tipus de dominis que hi ha.
