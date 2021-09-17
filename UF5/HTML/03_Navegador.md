@@ -1,150 +1,153 @@
-# Un navegador [EN CONSTRUCCIÓ]
+# Un navegador
 
-## Un navegador és un visor de documents. Quin tipus de document? Pàgines web.
+## Un navegador és un visor de documents. Quin tipus de document? Pàgines web
 
-actualment estàs utilitzant un _navegador de Web_ per llegir això _Webpage_ escrit en _HTML_.
+Actualment utilitzeu un _navegador web_ per llegir aquesta _pàgina web_ escrita en _HTML_.
 
-### documents d'HTML
+### Documents HTML
 
-**Webpages** és *documents d'HTML**, com altres fitxers en el vostre ordinador. Són fitxers de text just amb un `.html` extensió.
+**Les pàgines web** són **documents HTML**, com altres fitxers de l'ordinador. Només són fitxers de text amb una extensió `.html`.
 
-En el vostre ordinador, probablement tens tipus *diferent** de fitxers:
+A l’ordinador, probablement tingueu diferents **tipus** de fitxers:
 
 * `.jpg` per a imatges
-* `.mp3` per a música
-* `.avi` per a vídeos
-* `.doc` per a documents de Mot
-* `.xls` per Destacar fulls de càlcul
+* `.mp3` per a la música
+* `.avi` per als vídeos
+* `.doc` per als documents de Word
+* `.xls` per als fulls de càlcul d'Excel
 
-Cadascú d'aquests _tipus_ de fitxers poden ser oberts per un programa *concret**. Alguns d'aquests programes només poden _obrir_ aquests fitxers, mentre altres poden tant _obert_ i _crear_ fitxers.
+Cadascun d'aquests _tipus_ de fitxers els pot obrir un **programa** específic. Alguns d'aquests programes només poden _obrir_ aquests fitxers, mentre que d'altres poden _obrir_ i _creant_ fitxers.
 
-Per default, *arxivar les extensions** són amagades. En això tutorial, necessitarem ser capaços d'editar aquestes extensions. Així que segueix aquestes instruccions per mostrar extensions de fitxer:
-*Windows**: [Espectacle o fitxer d'amagatall extensions de nom](https://windows.microsoft.com/en-ens/les finestres/mostren-amagatall-fitxer-nom-extensions)
-*Mac**: [Espectacle i amagatall filename extensions](https://support.apple.com/kb/PH10845?locale=en_EUA)
-{: .info}
+A Windows o Mac, per defecte, les **extensions de fitxer** estan ocultes. En aquest curs ens cal que siguin visibles. Per tant, seguiu aquestes instruccions per mostrar les extensions de fitxer:
+
+* **Windows**: [Mostra o oculta les extensions de nom de fitxer](https://windows.microsoft.com/en-us/windows/show-hide-file-name-extensions)
+
+* **Mac**: [Mostra i oculta les extensions de nom de fitxer](https://support.apple.com/kb/PH10845?locale=en_US)
 
 Per exemple:
 
-* iTunes pot *obrir** `.mp3` arxiva però no els pot crear.
-* Microsoft Word pot tanmateix tant *obert** i *crear** `.doc` fitxers.
+* L'VLC pot **obrir fitxers** `.mp3` però no els pot crear.
+* Tanmateix, Microsoft Word pot **obrir** i **crear fitxers** `.doc`.
 
-<div class="table">
+<div class = "table">
   <table>
     <tr>
-      <th>Programa</th>
-      <th>Tipus</th>
+      <th> Programa </th>
+      <th> Tipus </th>
       <th>
-        Pot <em>obrir</em> aquests fitxers
+        Es poden <em> obrir </em> aquests fitxers
       </th>
       <th>
-        També pot <em>crear</em> aquests fitxers?
+        També podeu <em> crear </em> aquests fitxers?
       </th>
     </tr>
     <tr>
-      <td>Microsoft Word</td>
-      <td>Editor de mot</td>
+      <td> Microsoft Word </td>
+      <td> Editor de paraules </td>
       <td>
-        <code>.doc</code>
-        <code>.docx</code>
+        <code> .doc </code>
+        <code> .docx </code>
       </td>
-      <td class="yes"><span>Sí</span></td>
+      <td class = "yes"> <span> Sí </span> </td>
     </tr>
     <tr>
-      <td>Pintura</td>
-      <td>Grafisme</td>
+      <td> Pinta </td>
+      <td> Gràfics </td>
       <td>
-        <code>.jpg</code>
-        <code>.gif</code>
-        <code>.bmp</code>
+        <code> .jpg </code>
+        <code> .gif </code>
+        <code> .bmp </code>
       </td>
-      <td class="yes"><span>Sí</span></td>
+      <td class = "yes"> <span> Sí </span> </td>
     </tr>
     <tr>
-      <td>VLC</td>
-      <td>#Videolector</td>
+      <td> VLC </td>
+      <td> Reproductor de vídeo </td>
       <td>
-        <code>.avi</code>
-        <code>.mpg</code>
+        <code> .avi </code>
+        <code> .mpg </code>
       </td>
-      <td class="no">ITUNES</td>
+      <td class = "no"> No </td>
     </tr>
     <tr>
-      <td>de núm.</td>
-      <td>Jugador de música</td>
+      <td> iTunes </td>
+      <td> Reproductor de música </td>
       <td>
-        <code>.mp3</code>
-        <code>.wav</code>
-        <code>.aiff</code>
+        <code> .mp3 </code>
+        <code> .wav </code>
+        <code> .aiff </code>
       </td>
-      <td class="no">Núm</td>
+      <td class = "no"> No </td>
     </tr>
     <tr>
-      <td>Firefox</td>
-      <td>Navegador de web</td>
+      <td> Firefox </td>
+      <td> Navegador web </td>
       <td>
-        <code>.html</code>
+        <code> .html </code>
       </td>
-      <td class="no">Núm</td>
+      <td class = "no"> No </td>
     </tr>
     <tr>
-      <td>Notepad++</td>
-      <td>Editor de text</td>
+      <td> Bloc de notes </td>
+      <td> Editor de text </td>
       <td>
-        <code>.text</code>
-        <code>.html</code>
+        <code> .text </code>
+        <code> .html </code>
       </td>
-      <td class="yes"><span>Sí</span></td>
+      <td class = "yes"> <span> Sí </span> </td>
     </tr>
   </table>
 </div>
 
-El programa va soler *documents** d'HTML obert són un *navegador**, com Firefox o Google Croma.
-El programa va soler *crear** documents d'HTML són un *editor de text**, com Notepad++ o Text Sublim.
+El programa utilitzat per **obrir** documents HTML és un **navegador**, com Firefox o Google Chrome.
+El programa utilitzat per **crear** documents HTML és un **editor de text**, com Sublime Text o [Visual Studio Code](https://code.visualstudio.com/)
 
-### HTML de codi
+### codi font HTML
 
-de font d'HTML el codi sembla això:
+El codi HTML té aquest aspecte:
 
-{% punt destacat html %}
-<p>Hola Món</p>
-{% endhighlight %}
+```html
+<p> Hola món </p>
+```
 
-Aquest codi és escrit amb un *editor de text**. Pots veure les etiquetes `<p>` i `</p>` aquell suport per a *paràgraf**.
+Aquest codi s’escriu amb un **editor de text**. Podeu veure les etiquetes `<p>` i `</p>` que signifiquen **paràgraf**.
 
-Quan obert per un *navegador**, aquestes etiquetes no *són mostrades** sinó *interpretat** pel navegador:
+Quan les obre un **navegador**, aquestes etiquetes **no es mostren**, sinó que **són interpretades** pel navegador:
 
-<div class="result">
-  <p>Hola Món</p>
+<div class = "result">
+  <p> Hola món </p>
 </div>
 
-El navegador veu el `<p>` i `</p>` etiqueta i entén aquell `Món d'Hola` és un *paràgraf**.
+El navegador veu les etiquetes `<p>` i `</p>` i entén que "Hello World" és un **paràgraf**.
 
-Recorda que es pot obrir un document d'HTML en *2 camins**:
+Recordeu que un document HTML es pot obrir de **2 maneres**:
 
-* per un *editor de text** que _veu_ el codi de font
-* per un *navegador** que _interpreta_ la Llista de ###
+* per un **editor de text** que _visualitza_ el codi font
+* per un **navegador** que _interpreta_ el codi font
 
-codi de la font de navegadors de Web
+### Llista de navegadors web
 
-Mentre el Web ha esdevingut l'ús primari de la internet, cada ordinador i el telèfon intel·ligent vénen amb un default el navegador instal·lat.
+Com que el web s'ha convertit en l'ús principal d'Internet, tots els ordinadors i telèfons intel·ligents tenen un navegador predeterminat instal·lat.
 
-El més popular uns són:
+Els més populars són:
 
-* [![Crom](/web/d'imatges-chrome.png/de navegadors)](https://www.google.com/crom/) *Crom*
-* [![Firefox](/web/d'imatges-firefox.png/de navegadors)](https://www.mozilla.org/firefox/) **Firefox*
-* [![Explorador d'internet](/web/d'imatges-internet-explorer.png/de navegadors)](https://www.microsoft.com/internet-explorer.aspx/de descàrrega) *Explorer d'Internet*
-* [![Òpera](/web/d'imatges-opera.png/de navegadors)](https://www.opera.com/) *Òpera*
-* [![Safari](/web/d'imatges-safari.png/de navegadors)](https://www.apple.com/safari/) *Safari*
-{: .Llista}
+* **Chrome** https://www.google.com/chrome/
+* **Firefox** https://www.mozilla.org/firefox/
+* **Internet Explorer** https://www.microsoft.com/download/internet-explorer.aspx
+* **Opera** https://www.opera.com/
+* **Safari** https://www.apple.com/safari/
 
-### de programari d'editors de text
+### Llista d'editors de text
 
-El més popular uns són:
+Els més populars són:
 
-* [![Notepad++](/text/d'imatges-notepad-plus-plus.png/d'editors)](https://notepad-plus-plus.org/) **Notepad++*
-* [![Text sublim](/text/d'imatges-sublime-text.png/d'editors)](https://www.sublimetext.com/) *Text sublim*
-{: .programari}
+* **Bloc de notes ++** https://notepad-plus-plus.org/
+* **Text sublim** https://www.sublimetext.com/
+* **Visual Studio Code** https://code.visualstudio.com/
 
-Et necessitarà instal·lar u per *escriure** HTML i CSS.
+N’haureu d’instal·lar un per **escriure** HTML i CSS.
 
-Estona la resta d'això tutorial no requereix per escriure qualsevol codi, és *va recomanar** tastar fora dels exemples tu mateix.
+### Preguntes que heu de ser capaços de respondre
+
+1. Quina diferència hi ha entre obrit un document HTML amb un editor de text i amb un navegador?
+2. Quin editor de text fem servir en aquest mòdul? Quina llicència té? Amb quins sistemes operatius funciona?

@@ -37,7 +37,7 @@ Un **lloc web** és simplement una col·lecció de pàgines web ubicades en un *
 
 En navegar a <http://gegantsvilanovailageltru.cat/gegants-petits.html>, demaneu a un ordinador d'Internet que obtingui el document `gegants-petits.html`.
 
-En aquest cas, el vostre ordinador és el **client**. Sol·liciteu al servidor MarkSheet (on es troba allotjat el lloc web) que obtingui el fitxer anomenat `gegants-petits.html`.
+En aquest cas, el vostre ordinador és el **client**. Sol·liciteu al servidor _gegantsvilanovailageltru.cat_ (on es troba allotjat el lloc web) que obtingui el fitxer anomenat `gegants-petits.html`.
 
 <div class = "table">
   <table>
