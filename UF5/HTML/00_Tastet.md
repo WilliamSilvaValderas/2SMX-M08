@@ -41,7 +41,7 @@ Fes proves, incorpora les etiquetes següents, buscant previament a l'enllaç an
 * B
 * I
 
-### Preguntes que heu de ser capaços de respondre
+### Preguntes que heu de respondre a la [pràctica 1](https://moodle.insjoaquimmir.cat/mod/assign/view.php?id=42051)
 
 1. Què vol dir HTML?
 2. Quina diferència hi ha entre escriure un document word/writer i escriure una pàgina web?

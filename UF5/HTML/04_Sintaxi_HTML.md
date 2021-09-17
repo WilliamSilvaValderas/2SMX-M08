@@ -82,10 +82,10 @@ Tenint en compte que l’objectiu de l’element `<img>` és mostrar una imatge,
 
 Si escriviu alguna cosa al vostre codi sense interrompre la manera com el navegador mostrarà la vostra pàgina, podeu escriure **comentaris**. El navegador els _ignorarà_ i només serà útil per als humans que escrivim el codi.
 
-Un comentari comença per `<! -` i acaba amb `->`.
+Un comentari comença per `<!--` i acaba amb `-->`.
 
 ```html
-<! - Aquesta frase serà ignorada pel navegador ->
+<!-- Aquesta frase serà ignorada pel navegador -->
 <p> Hola món! </p>
 ```
 
@@ -96,14 +96,15 @@ Un comentari comença per `<! -` i acaba amb `->`.
 Alguns elements HTML són una única etiqueta, no hi ha etiqueta d'obertura i tancament:
 
 ```html
-<br \> <! - salt de línia ->
-<img src = "https://placehold.it/50x50" alt = "Descripció" \> <! - image ->
-<input type = "text" \> <! - text input ->
+<br \> <!-- salt de línia -->
+<hr \> <!-- linia horitzontal -->
+<img src = "https://placehold.it/50x50" alt = "Descripció" \> <!-- image -->
+<input type = "text" \> <!-- text input -->
 ```
 
 En aquest [enllaç podeu consultar una llista d'etiquetes _self-closing_](http://xahlee.info/js/html5_non-closing_tag.html)
 
-### Preguntes que heu de ser capaços de respondre
+### Preguntes que heu de respondre a la [pràctica 1](https://moodle.insjoaquimmir.cat/mod/assign/view.php?id=42051)
 
 1. Com s'escriu un comentari amb HTML? Per a que serveix?
 2. Què són els atributs d'una etiqueta HTML?

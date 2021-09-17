@@ -147,7 +147,7 @@ Els més populars són:
 
 N’haureu d’instal·lar un per **escriure** HTML i CSS.
 
-### Preguntes que heu de ser capaços de respondre
+### Preguntes que heu de respondre a la [pràctica 1](https://moodle.insjoaquimmir.cat/mod/assign/view.php?id=42051)
 
 1. Quina diferència hi ha entre obrit un document HTML amb un editor de text i amb un navegador?
 2. Quin editor de text fem servir en aquest mòdul? Quina llicència té? Amb quins sistemes operatius funciona?
