@@ -7,7 +7,8 @@
 * [00. Tastet d'HTML](./00_Tastet.md)
 * [01. La Internet](./01_Internet.md)
 * [02. La World Wide Web](./02_Web.md)
-* [03. Un navegador](./03_Nevegador.md)
+* [03. Un navegador](./03_Navegador.md)
+* [04. Sintaxi HTML](./04_Sintaxi_HTML.md)
 
 ---
 
