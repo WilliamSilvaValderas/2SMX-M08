@@ -1,6 +1,6 @@
 # Block i inline
 
-## HTML té 2 <strong> tipus </strong> principals d'elements
+## HTML té 2 tipus principals d'elements
 
 En HTML, trobareu principalment 2 tipus d'elements HTML:
 
