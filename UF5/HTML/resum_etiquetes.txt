@@ -1,15 +1,27 @@
 <html></html> : per indicar el principi i final de la web
+
 <head><title>Nom de la pestanya</title></head>
+
 <body></body> : cos de la web
+
 <h1></h1> : títol... també hi ha h2, h3, h4...
+
 <p>Aquesta etiqueta conté un paràgraf</p>
+
 <a href="https://google.com">Un enllaç</a>
+
 <br>: salt de línia
+
 <hr>: linea horitzontal de separació
+
 <b>paraula destacada</b>
+
 <strong>paraula destacada</strong>
+
 <i>paruala en cursiva</i>
+
 <img src="gato.png" width="100" height="100"> : insereix la foto d'un gat que tinc a la mateixa carpeta
+
 <ul>
   <li>una cosa</li>
   <li>una altre cosa</li>
@@ -20,4 +32,4 @@
   <li>segona cosa</li>
 </ol>: llista ordenada amb números "ordered"
 
-Atribut "title": <img src="..." title="Surt quan pases el ratolí per sobre"> ... vàlid per qualsevol etiqueta
+Atribut "title" és vàlid per qualsevol etiqueta: <img src="..." title="Surt quan pases el ratolí per sobre">
