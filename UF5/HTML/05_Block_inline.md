@@ -10,7 +10,7 @@ En HTML, trobareu principalment 2 tipus d'elements HTML:
   * llistes: sense ordenar (amb punts) `<ul>` o llistes ordenades (amb números) `<ol>`
   * encapçalaments: des del primer nivell `<h1>` fins als encapçalaments del 6è nivell `<h6>`
   * articles `<article>`
-  * seccions `<secció>`
+  * seccions `<section>`
   * cometes llargues `<blockquote>`
 
 * **INLINE** elements com:
@@ -21,7 +21,7 @@ En HTML, trobareu principalment 2 tipus d'elements HTML:
   * cometes curtes `<q>`
   * abreviatures `<abbr>`
 
-Els elements **de bloc** estan destinats a **estructurar** les parts principals de la pàgina dividint el contingut en blocs _coherents.
+Els elements **de bloc** estan destinats a **estructurar** les parts principals de la pàgina dividint el contingut en blocs _coherents_.
 
 Els elements **en línia** estan destinats a diferenciar _part_ d'un text, per donar-li una funció o significat particular. Els elements en línia solen contenir una sola o poques paraules.
 
