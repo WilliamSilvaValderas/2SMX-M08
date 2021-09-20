@@ -1,0 +1,15 @@
+<style>
+    body {
+        background-color: yellow;
+    }
+    p {
+        color: red;
+    }
+    h1 {
+        font-size: 100px;
+    }
+    hr {
+        height: 10px;
+        width: 300px;
+    }
+</style>
