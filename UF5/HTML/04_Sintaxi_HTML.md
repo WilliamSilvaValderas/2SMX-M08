@@ -64,7 +64,7 @@ Per exemple, l'atribut `href` s'utilitza per definir l'objectiu d'un **enllaç**
 <a href="https://www.mozilla.com/firefox"> Baixeu Firefox </a>
 ```
 
-<div class = "result"> <a href="https://www.mozilla.com/firefox"> Baixa Firefox </a> </div>
+<div class = "result"> <a href="https://www.mozilla.com/firefox"> Baixeu Firefox </a> </div>
 
 Hi ha [16 atributs HTML](https://www.w3schools.com/tags/ref_standardattributes.asp) que es poden utilitzar en qualsevol element HTML. Tots són **opcionals**.
 
