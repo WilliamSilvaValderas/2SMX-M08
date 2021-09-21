@@ -96,10 +96,10 @@ Un comentari comença per `<!--` i acaba amb `-->`.
 Alguns elements HTML són una única etiqueta, no hi ha etiqueta d'obertura i tancament:
 
 ```html
-<br \> <!-- salt de línia -->
-<hr \> <!-- linia horitzontal -->
-<img src = "https://placehold.it/50x50" alt = "Descripció" \> <!-- image -->
-<input type = "text" \> <!-- text input -->
+<br /> <!-- salt de línia -->
+<hr /> <!-- linia horitzontal -->
+<img src = "https://placehold.it/50x50" alt = "Descripció" /> <!-- image -->
+<input type = "text" /> <!-- text input -->
 ```
 
 En aquest [enllaç podeu consultar una llista d'etiquetes _self-closing_](http://xahlee.info/js/html5_non-closing_tag.html)
