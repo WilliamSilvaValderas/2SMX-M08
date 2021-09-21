@@ -33,3 +33,25 @@
 </ol>: llista ordenada amb números "ordered"
 
 Atribut "title" és vàlid per qualsevol etiqueta: <img src="..." title="Surt quan pases el ratolí per sobre">
+
+<!-- exemple de taula amb 3 files, 4 columnes i bora -->
+<table border="1">
+    <tr>
+        <th>Alumne</th>
+        <th>Email</th>
+        <th>Edat</th>
+        <th>Comentari</th>
+    </tr>
+    <tr>
+        <td>Pepe</td>
+        <td>pepe@gmail.com</td>
+        <td>76</td>
+        <td>Hola?</td>
+    </tr>
+    <tr>
+        <td>Paco</td>
+        <td>paco@gmail.com</td>
+        <td>16</td>
+        <td></td>
+    </tr>
+</table>
