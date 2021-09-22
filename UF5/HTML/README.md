@@ -13,12 +13,13 @@
 * [06. Jerarquia d'HTML](./teoria/06_Jerarquia_HTML.md)
 * [07. Semàntica d'HTML](./teoria/07_Semantica_HTML.md)
 
-### Exemples
+### Recursos
 
-* [00. Resum d'etiquetes](./exemples/00_resum_etiquetes.txt)
-* [01. Primer exemple de web](./exemples/01_primer_exemple_web.html)
-* [02. Tastet de CSS](./exemples/02_tastet_de_CSS.html)
-* [03. Exemple de block & inline](./exemples/03_exemple_block_inline.html)
+* [W3Schools: llistat d'etiquetes HTML](https://www.w3schools.com/TAGS/default.ASP)
+* [Resum d'etiquetes](./exemples/00_resum_etiquetes.txt)
+* [Primer exemple de web](./exemples/01_primer_exemple_web.html)
+* [Tastet de CSS](./exemples/02_tastet_de_CSS.html)
+* [Exemple de block & inline](./exemples/03_exemple_block_inline.html)
 
 ---
 
