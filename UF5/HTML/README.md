@@ -11,10 +11,14 @@
 * [04. Sintaxi HTML](./teoria/04_Sintaxi_HTML.md)
 * [05. Block i inline](./teoria/05_Block_inline.md)
 * [06. Jerarquia d'HTML](./teoria/06_Jerarquia_HTML.md)
+* [07. Semàntica d'HTML](./teoria/07_Semantica_HTML.md)
 
-### Pràctica
+### Exemples
 
-* [00. Resum d'etiquetes](./practica/00_Resum_etiquetes.txt)
+* [00. Resum d'etiquetes](./exemples/00_resum_etiquetes.txt)
+* [01. Primer exemple de web](./exemples/01_primer_exemple_web.html)
+* [02. Tastet de CSS](./exemples/02_tastet_de_CSS.html)
+* [03. Exemple de block & inline](./exemples/03_exemple_block_inline.html)
 
 ---
 
