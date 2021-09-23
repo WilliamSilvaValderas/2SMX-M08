@@ -83,10 +83,10 @@ Com a resultat, els elements que contenen auto-tancament (*self-closing*) són e
 
 ### Altres tipus d'elements HTML
 
-Hi ha diverses excepcions als elements de bloc / en línia, però els que més sovint us trobareu són:
+Hi ha algunes etiquetes que no es poden assignar com a etiquetes del tipus `block`, però tampoc com a etiquetes del tipus `inline`. Les més conegudes són les següents:
 
-* **elements de llista** per a `<li>`
-* **taula**, **files de taula**, **cel·les de taula** per a `<table>`, `<tr>` i `<td>` respectivament
+* **elements de llista**: `<li>`
+* **taula**, **files de taula**, **cel·les de taula**: `<table>`, `<tr>` i `<td>` respectivament
 
 ### Preguntes que heu de respondre a la [pràctica 1](https://moodle.insjoaquimmir.cat/mod/assign/view.php?id=42051)
 

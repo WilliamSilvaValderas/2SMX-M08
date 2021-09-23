@@ -95,8 +95,8 @@ En aquesta configuració:
 
 * `<article>` és el **avantpassat** de tots els altres elements
 * `<article>` és el **pare** del `<h1>` i del 3 `<p>`
-* `<h1>` i els 3 `<p>` són ** germans **
-* cada `<p>` és el ** pare ** dels `<strong>` i `<q>` que contenen
+* `<h1>` i els 3 `<p>` són **germans**
+* cada `<p>` és el **pare** dels `<strong>` i `<q>` que contenen
 * tots els `<h1>`,`<p>`, `<strong>` i `<q>` són tots **descendents** de` <article> `
 
 L’analogia de l’arbre genealògic encara s’aplica quan **travessem** diverses capes de nidificació HTML:

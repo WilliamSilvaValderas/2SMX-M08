@@ -3,21 +3,20 @@
         <title>Exemple d'etiquetes block & inline</title>
         <meta charset="utf-8"/>
         <style>
-            h1 {
+            /* BLOCK */
+            h1, p, ul {
                 background-color: orange;
-                border: 1px solid black
+                border: 1px solid black;
             }
-            p {
-                background-color: yellow;
-                border: 1px solid black
-            }
-            strong {
+            /* INLINE */
+            strong, a {
                 background-color: pink;
                 border: 1px solid black
             }
-            a {
-                background-color: lightgreen;
-                border: 1px solid black
+            /* No són ben bé ni block ni inline */
+            table, td, tr, li {
+                background-color: lightblue;
+                border: 1px solid blue
             }
         </style>
     </head>
@@ -26,5 +25,21 @@
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nibh tellus, vehicula ut maximus sed, fringilla a justo. Nunc vitae efficitur nisl. Ut sapien erat, pretium et <strong>commodo</strong> nec, rutrum bibendum magna. Sed ut massa massa. Etiam euismod neque lacus, id tincidunt risus iaculis a. Aliquam porta venenatis bibendum. Nam id varius nulla. Sed vitae purus ac odio ornare vestibulum vitae tempor arcu. Nunc non venenatis purus. Duis a augue at nulla congue egestas. Morbi mattis felis <a href="https://google.com">sit amet tortor euismod</a>, fringilla viverra est elementum. Suspendisse vestibulum sed massa eu tincidunt. Pellentesque cursus, nisl at gravida suscipit, odio quam placerat mi, in iaculis nunc risus eu sapien. Suspendisse potenti. Nullam fermentum, tellus vel faucibus dictum, arcu ante rutrum nisi, ut iaculis eros felis a lectus. Etiam vel maximus nulla, sed mattis lectus. Aliquam commodo est massa, at vestibulum diam commodo vehicula. Nullam et tristique tortor. Praesent luctus, leo id mattis mattis, ex dui dapibus dolor, nec ultrices turpis nibh in sem. In efficitur, velit ut bibendum interdum, libero turpis mattis odio, non pharetra metus leo nec arcu. Maecenas auctor laoreet maximus. Donec metus massa, scelerisque a lacinia et, viverra eget metus. Aenean vitae tellus vehicula, mattis metus in, facilisis purus. In purus erat, fringilla ut diam et, convallis convallis nunc. Morbi sagittis interdum ipsum sit amet fringilla. 
         </p>
+        <ul>
+            <br>
+            <li>Una cosa</li>
+            <li>Una altre</li>
+            <br>
+        </ul>
+        <table>
+            <tr>
+                <td>A</td>
+                <td>B</td>
+            </tr>
+            <tr>
+                <td>C</td>
+                <td>D</td>
+            </tr>
+        </table>
     </body>
 </html>
