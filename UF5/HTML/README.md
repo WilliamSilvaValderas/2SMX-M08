@@ -20,6 +20,7 @@
 * [Primer exemple de web](./exemples/01_primer_exemple_web.html)
 * [Tastet de CSS](./exemples/02_tastet_de_CSS.html)
 * [Exemple de block & inline](./exemples/03_exemple_block_inline.html)
+* [Referencia de CSS bàsica](https://uniwebsidad.com/libros/referencia-css2)
 
 ---
 
