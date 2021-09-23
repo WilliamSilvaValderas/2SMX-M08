@@ -88,7 +88,7 @@ Hi ha algunes etiquetes que no es poden assignar com a etiquetes del tipus `bloc
 * **elements de llista**: `<li>`
 * **taula**, **files de taula**, **cel·les de taula**: `<table>`, `<tr>` i `<td>` respectivament
 
-### Preguntes que heu de respondre a la [pràctica 1](https://moodle.insjoaquimmir.cat/mod/assign/view.php?id=42051)
+## Preguntes que heu de respondre a la [pràctica 1](https://moodle.insjoaquimmir.cat/mod/assign/view.php?id=42051)
 
 1. Què vol dir que un element és del tipus `block`? Per a que serveixen els elements d'aquest tipus?
 2. Què vol dir que un element és del tipus `inline`? Per a que serveixen els elements d'aquest tipus?

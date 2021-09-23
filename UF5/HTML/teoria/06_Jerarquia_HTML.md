@@ -122,7 +122,7 @@ Tanmateix, els elements **inline** només poden contenir altres elements _inline
 
 Només cal recordar l’avantpassat / descendent, pare / fill i germans. Aquesta jerarquia serà útil a CSS.
 
-### Preguntes que heu de respondre a la [pràctica 1](https://moodle.insjoaquimmir.cat/mod/assign/view.php?id=42051)
+## Preguntes que heu de respondre a la [pràctica 1](https://moodle.insjoaquimmir.cat/mod/assign/view.php?id=42051)
 
 1. Explica amb un exemple l'ordre correcte d'obrir i tancar elements que són un dins de l'altre
 

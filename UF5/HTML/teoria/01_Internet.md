@@ -122,7 +122,7 @@ Aquest URL és **única** i defineix:
 
 Els URL poden tenir un aspecte més complex. Podeu llegir sobre [les parts que composen una URL](https://edytapukocz.com/url-partes-ejemplos-facil/).
 
-### Preguntes que heu de respondre a la [pràctica 1](https://moodle.insjoaquimmir.cat/mod/assign/view.php?id=42051)
+## Preguntes que heu de respondre a la [pràctica 1](https://moodle.insjoaquimmir.cat/mod/assign/view.php?id=42051)
 
 1. Definir Internet, Protocol, Adreça IP
 2. Coneixer els protocols FTP, SMTP, IMAP, IRC, HTTP

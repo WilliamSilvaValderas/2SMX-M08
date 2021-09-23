@@ -12,6 +12,7 @@
 * [05. Block i inline](./teoria/05_Block_inline.md)
 * [06. Jerarquia d'HTML](./teoria/06_Jerarquia_HTML.md)
 * [07. Semàntica d'HTML](./teoria/07_Semantica_HTML.md)
+* [08. Format d'HTML](./teoria/08_Format_HTML.md)
 
 ### Recursos
 

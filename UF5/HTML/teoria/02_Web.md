@@ -93,7 +93,7 @@ El vostre navegador pot mostrar "web.html".
 
 El fitxer **no està desat** al vostre ordinador: només es mostra temporalment mentre hi navegueu. Si aneu a <http://gegantsvilanovailageltru.cat/gegants-petits.html> més endavant, demanarà a l'ordinador gegantsvilanovailageltru.cat _de nou_ el mateix fitxer, si encara existeix. D’aquesta manera, us garanteix obtenir sempre la versió més recent del fitxer.
 
-### Preguntes que heu de respondre a la [pràctica 1](https://moodle.insjoaquimmir.cat/mod/assign/view.php?id=42051)
+## Preguntes que heu de respondre a la [pràctica 1](https://moodle.insjoaquimmir.cat/mod/assign/view.php?id=42051)
 
 1. Defineix que és la web
 2. Què és una pàgina web

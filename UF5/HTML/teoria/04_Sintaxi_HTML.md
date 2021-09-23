@@ -104,7 +104,7 @@ Alguns elements HTML són una única etiqueta, no hi ha etiqueta d'obertura i ta
 
 En aquest [enllaç podeu consultar una llista d'etiquetes _self-closing_](http://xahlee.info/js/html5_non-closing_tag.html)
 
-### Preguntes que heu de respondre a la [pràctica 1](https://moodle.insjoaquimmir.cat/mod/assign/view.php?id=42051)
+## Preguntes que heu de respondre a la [pràctica 1](https://moodle.insjoaquimmir.cat/mod/assign/view.php?id=42051)
 
 1. Com s'escriu un comentari amb HTML? Per a que serveix?
 2. Què són els atributs d'una etiqueta HTML?

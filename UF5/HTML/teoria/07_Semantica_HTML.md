@@ -131,6 +131,6 @@ Però no dediqueu massa temps a preocupar-vos per això. Si us complau la llista
   </table>
 </div>
 
-### Preguntes que heu de respondre a la [pràctica 1](https://moodle.insjoaquimmir.cat/mod/assign/view.php?id=42051)
+## Preguntes que heu de respondre a la [pràctica 1](https://moodle.insjoaquimmir.cat/mod/assign/view.php?id=42051)
 
 1. Explica amb les teves paraules que vol dir que la funció de l'HTML es proporcionar significat
