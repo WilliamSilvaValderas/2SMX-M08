@@ -1,6 +1,6 @@
 # Format d'HTML
 
-## Quan <strong> l'espai en blanc </strong> no importa
+## Quan l'espai en blanc no importa
 
 Hi ha una diferència entre el que **s’escriu** al vostre codi HTML i el que **es mostra** al navegador.
 
@@ -20,17 +20,17 @@ El navegador **ignora** els salts de línia i les línies buides (que són una s
 
 ```html
 <p>
-La idea original del web era que fos una col·laboració
+La idea original del web era que hauria de ser un 
 
 
 espai
 
 
-on us podeu comunicar compartint informació.
+de col·laboració on poder comunicar-se compartint informació.
 </p>
 ```
 
-<div class = "result">
+<div style="background-color:grey">
   <p>
   La idea original del web era que hauria de ser un espai de col·laboració on poder comunicar-se compartint informació.
   </p>
@@ -42,7 +42,7 @@ Per tal de **forçar** un salt de línia, heu d'utilitzar l'element HTML `<br>`:
 <p> En el millor dels casos, la vida és completament <br> imprevisible. </p>
 ```
 
-<div class = "result">
+<div style="background-color:grey">
   <p> En el millor dels casos, la vida és completament <br> imprevisible. </p>
 </div>
 
@@ -59,7 +59,7 @@ De totes maneres, com un espai normal, una tabulació és **invisible**. El nave
 </p>
 ```
 
-<div class = "result">
+<div style="background-color:grey">
   <p>
     Empenyem aquest text
     amb tabulacions.
@@ -76,7 +76,7 @@ Com que els elements HTML es poden anidar els uns als altres, heu de fer un segu
 <article> <p> Aquest codi està escrit en una línia <strong> única </strong>. </p> </article>
 ```
 
-<div class = "result">
+<div style="background-color:grey">
   <article> <p> Aquest codi està escrit en una línia <strong> única </strong>. </p> </article>
 </div>
 
@@ -95,7 +95,7 @@ Com que pot ser difícil fer un seguiment de l'ordre en què s'han obert els ele
 </article>
 ```
 
-<div class = "result">
+<div style="background-color:grey">
 <article>
   <p>
     Aquest codi està escrit
@@ -128,4 +128,4 @@ No hi ha regles específiques relatives al format HTML, però hi ha **convencion
 
 ## Preguntes que heu de respondre a la [pràctica 1](https://moodle.insjoaquimmir.cat/mod/assign/view.php?id=42051)
 
-1. Per quina raó, tot i que no es veuen, es recomanable escriure codi HTML amb salts de línia, tabulacions, etc?
+1. Per quina raó, tot i que no es veuen en el navegador, es recomanable escriure codi HTML amb salts de línia, tabulacions, etc?

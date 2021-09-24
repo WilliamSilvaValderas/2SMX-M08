@@ -13,6 +13,7 @@
 * [06. Jerarquia d'HTML](./teoria/06_Jerarquia_HTML.md)
 * [07. Semàntica d'HTML](./teoria/07_Semantica_HTML.md)
 * [08. Format d'HTML](./teoria/08_Format_HTML.md)
+* [09. HTML vàlid](./teoria/09_HTML_valid.md)
 
 ### Recursos
 
@@ -22,6 +23,7 @@
 * [Tastet de CSS](./exemples/02_tastet_de_CSS.html)
 * [Exemple de block & inline](./exemples/03_exemple_block_inline.html)
 * [W3Schools: llistat de propietats CSS](https://www.w3schools.com/cssref/)
+* [Validador d'HTML5](https://validator.w3.org/#validate_by_input)
 
 ---
 

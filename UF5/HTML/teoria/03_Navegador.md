@@ -114,7 +114,7 @@ Aquest codi s’escriu amb un **editor de text**. Podeu veure les etiquetes `<p>
 
 Quan les obre un **navegador**, aquestes etiquetes **no es mostren**, sinó que **són interpretades** pel navegador:
 
-<div class = "result">
+<div style="background-color:grey">
   <p> Hola món </p>
 </div>
 

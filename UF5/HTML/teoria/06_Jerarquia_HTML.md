@@ -16,7 +16,8 @@ Escrivim un paràgraf senzill i el millorem _diferenciant_ parts del text, inser
 </p>
 ```
 
-<div class = "result"> <p> Sir <strong> Alex Ferguson </strong> va dir una vegada sobre Filipo Inzaghi: <q>Aquell noi ha d'haver nascut fora de joc.</q>. </p> </div>
+<div style="background-color:grey"> 
+<p> Sir <strong> Alex Ferguson </strong> va dir una vegada sobre Filipo Inzaghi: <q>Aquell noi ha d'haver nascut fora de joc.</q>. </p> </div>
 
 En aquesta configuració:
 
@@ -75,7 +76,7 @@ El nostre paràgraf anterior podria formar part d'un bloc **article**:
 ```
 
 ---
-<div class = "result">
+<div style="background-color:grey">
   <article>
     <h1> Cites de futbol famosos </h1>
     <p>
