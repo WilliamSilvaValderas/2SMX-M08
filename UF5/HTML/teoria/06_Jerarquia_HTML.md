@@ -16,8 +16,8 @@ Escrivim un paràgraf senzill i el millorem _diferenciant_ parts del text, inser
 </p>
 ```
 
-<div style="background-color:grey"> 
-<p> Sir <strong> Alex Ferguson </strong> va dir una vegada sobre Filipo Inzaghi: <q>Aquell noi ha d'haver nascut fora de joc.</q>. </p> </div>
+<table bgcolor="grey"><tr><td> 
+<p> Sir <strong> Alex Ferguson </strong> va dir una vegada sobre Filipo Inzaghi: <q>Aquell noi ha d'haver nascut fora de joc.</q>. </p> </td></tr></table>
 
 En aquesta configuració:
 
@@ -76,7 +76,7 @@ El nostre paràgraf anterior podria formar part d'un bloc **article**:
 ```
 
 ---
-<div style="background-color:grey">
+<table bgcolor="grey"><tr><td>
   <article>
     <h1> Cites de futbol famosos </h1>
     <p>
@@ -89,7 +89,7 @@ El nostre paràgraf anterior podria formar part d'un bloc **article**:
       <strong> George Best </strong> va respondre <q>Vaig gastar molts diners en begudes alcohòliques, ocells i cotxes ràpids. La resta només els vaig malbaratar</q> quan em van preguntar sobre el seu estil de vida.
     </p>
   </article>
-</div>
+</td></tr></table>
 ---
 
 En aquesta configuració:

@@ -16,7 +16,7 @@ Aquí teniu un exemple de paràgraf en HTML:
 <p> Si Tetris m'ha ensenyat alguna cosa, és que s'acumulen errors i desapareixen els èxits. </p>
 ```
 
-<div style="background-color:grey"> <p> Si Tetris m'ha ensenyat alguna cosa, és que s'acumulen errors i desapareixen els èxits. </p> </div>
+<table bgcolor="grey"><tr><td> <p> Si Tetris m'ha ensenyat alguna cosa, és que s'acumulen errors i desapareixen els èxits. </p> </td></tr></table>
 
 El que veieu entre **claudàtors** `<` i `>` són etiquetes HTML. Defineixen on comença alguna cosa i on acaba.
 
@@ -47,7 +47,7 @@ Obriu el vostre **editor de text** i copieu i enganxeu el següent:
 
 Deseu aquest fitxer com a "my-first-webpage.html" i obriu-lo amb el navegador i veureu:
 
-<div style="background-color:grey"> <p> Aquesta és la meva primera pàgina web! </p> </div>
+<table bgcolor="grey"><tr><td> <p> Aquesta és la meva primera pàgina web! </p> </td></tr></table>
 
 Recordeu:
 
@@ -64,7 +64,7 @@ Per exemple, l'atribut `href` s'utilitza per definir l'objectiu d'un **enllaç**
 <a href="https://www.mozilla.com/firefox"> Baixeu Firefox </a>
 ```
 
-<div style="background-color:grey"> <a href="https://www.mozilla.com/firefox"> Baixeu Firefox </a> </div>
+<table bgcolor="grey"><tr><td> <a href="https://www.mozilla.com/firefox"> Baixeu Firefox </a> </td></tr></table>
 
 Hi ha [16 atributs HTML](https://www.w3schools.com/tags/ref_standardattributes.asp) que es poden utilitzar en qualsevol element HTML. Tots són **opcionals**.
 
@@ -89,7 +89,7 @@ Un comentari comença per `<!--` i acaba amb `-->`.
 <p> Hola món! </p>
 ```
 
-<div style="background-color:grey"> <p> Hola món! </p> </div>
+<table bgcolor="grey"><tr><td> <p> Hola món! </p> </td></tr></table>
 
 ### Elements _self-closing_
 

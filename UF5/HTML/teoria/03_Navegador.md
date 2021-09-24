@@ -114,9 +114,9 @@ Aquest codi s’escriu amb un **editor de text**. Podeu veure les etiquetes `<p>
 
 Quan les obre un **navegador**, aquestes etiquetes **no es mostren**, sinó que **són interpretades** pel navegador:
 
-<div style="background-color:grey">
+<table bgcolor="grey"><tr><td>
   <p> Hola món </p>
-</div>
+</td></tr></table>
 
 El navegador veu les etiquetes `<p>` i `</p>` i entén que "Hello World" és un **paràgraf**.
 

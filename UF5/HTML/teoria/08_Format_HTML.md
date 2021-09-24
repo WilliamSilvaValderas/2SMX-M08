@@ -30,11 +30,11 @@ de col·laboració on poder comunicar-se compartint informació.
 </p>
 ```
 
-<div style="background-color:grey">
+<table bgcolor="grey"><tr><td>
   <p>
   La idea original del web era que hauria de ser un espai de col·laboració on poder comunicar-se compartint informació.
   </p>
-</div>
+</td></tr></table>
 
 Per tal de **forçar** un salt de línia, heu d'utilitzar l'element HTML `<br>`:
 
@@ -42,9 +42,9 @@ Per tal de **forçar** un salt de línia, heu d'utilitzar l'element HTML `<br>`:
 <p> En el millor dels casos, la vida és completament <br> imprevisible. </p>
 ```
 
-<div style="background-color:grey">
+<table bgcolor="grey"><tr><td>
   <p> En el millor dels casos, la vida és completament <br> imprevisible. </p>
-</div>
+</td></tr></table>
 
 ### Tabulacions
 
@@ -59,12 +59,12 @@ De totes maneres, com un espai normal, una tabulació és **invisible**. El nave
 </p>
 ```
 
-<div style="background-color:grey">
+<table bgcolor="grey"><tr><td>
   <p>
     Empenyem aquest text
     amb tabulacions.
   </p>
-</div>
+</td></tr></table>
 
 Si voleu afegir espai _abans_ d'una paraula, haureu d'utilitzar CSS, que el tractarem amb profunditat més endavant.
 
@@ -76,9 +76,9 @@ Com que els elements HTML es poden anidar els uns als altres, heu de fer un segu
 <article> <p> Aquest codi està escrit en una línia <strong> única </strong>. </p> </article>
 ```
 
-<div style="background-color:grey">
+<table bgcolor="grey"><tr><td>
   <article> <p> Aquest codi està escrit en una línia <strong> única </strong>. </p> </article>
-</div>
+</td></tr></table>
 
 Com que pot ser difícil fer un seguiment de l'ordre en què s'han obert els elements HTML, es recomana escriure HTML en un ** format d'arbre **:
 
@@ -95,7 +95,7 @@ Com que pot ser difícil fer un seguiment de l'ordre en què s'han obert els ele
 </article>
 ```
 
-<div style="background-color:grey">
+<table bgcolor="grey"><tr><td>
 <article>
   <p>
     Aquest codi està escrit
@@ -106,7 +106,7 @@ Com que pot ser difícil fer un seguiment de l'ordre en què s'han obert els ele
     líniea.
   </p>
 </article>
-</div>
+</td></tr></table>
 
 El format d'arbre permet replicar _visualment_ els **nivells de nidificació** del vostre codi HTML. Per tant, és fàcil veure que:
 
