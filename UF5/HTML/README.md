@@ -23,6 +23,7 @@
 * [Tastet de CSS](./exemples/02_tastet_de_CSS.html)
 * [Exemple de block & inline](./exemples/03_exemple_block_inline.html)
 * [W3Schools: llistat de propietats CSS](https://www.w3schools.com/cssref/)
+* [Meta Charset: como y por qué utilizarlo siempre](https://cybmeta.com/meta-charset-como-y-por-que-utilizarlo-siempre)
 * [Validador d'HTML5](https://validator.w3.org/#validate_by_input)
 
 ---
