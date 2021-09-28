@@ -117,7 +117,7 @@ Tanmateix, els elements **inline** només poden contenir altres elements _inline
 ```html
 <! - Aquest és un codi INVÀLID. :-( ->
 <strong>
-  <p> No podeu posar cap paràgraf dins d'una etiqueta "forta".
+  <p> No podeu posar cap paràgraf dins d'una etiqueta "strong".
 </strong>
 ```
 
