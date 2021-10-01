@@ -14,11 +14,11 @@ Per a paraules **importants**, utilitzeu l'etiqueta `<strong>`:
 </p>
 ```
 
-<div class = "result">
+<table bgcolor="grey"><tr><td>
   <p>
     Això és <strong> important </strong> o potser no.
   </p>
-</div>
+</td></tr></table>
 
 Per defecte, els elements `<strong>` es mostren en **negreta**, però tingueu en compte que només és el comportament predeterminat del navegador. No utilitzeu `<strong>` _només_ per posar algun text en negreta, sinó per donar-li més **importància**.
 

@@ -16,6 +16,7 @@
 * [09. HTML vàlid](./teoria/09_HTML_valid.md)
 * [10. HTML és text](./teoria/10_HTML_text.md)
 * [11. Semàntica en línia](./teoria/11_Semantica_inline.md)
+* [12. Enllaços](./teoria/12_Enllaços.md)
 
 ### Recursos
 
