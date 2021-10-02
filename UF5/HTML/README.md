@@ -17,6 +17,7 @@
 * [10. HTML és text](./teoria/10_HTML_text.md)
 * [11. Semàntica en línia](./teoria/11_Semantica_inline.md)
 * [12. Enllaços](./teoria/12_Enllaços.md)
+* [13. Imatges](./teoria/13_Imatges.md)
 
 ### Recursos
 
