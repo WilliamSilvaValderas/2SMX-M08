@@ -90,7 +90,7 @@ Tot i que aquests elements HTML no signifiquen res, seran útils quan comencem a
 
 ### No us plantegeu la semàntica
 
-Hi ha aproximadament [100 elements HTML semàntics] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element) per triar. Això és molt. Pot ser aclaparador passar per aquesta llista i triar l'element _apropiat_ per al vostre contingut.
+Hi ha aproximadament [100 elements HTML semàntics](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) per triar. Això és molt. Pot ser aclaparador passar per aquesta llista i triar l'element _apropiat_ per al vostre contingut.
 
 Però no dediqueu massa temps a preocupar-vos per això. Si us complau la llista següent per ara, estareu prou bé:
 
