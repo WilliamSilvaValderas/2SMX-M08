@@ -34,7 +34,7 @@
 * [Meta Charset: como y por qué utilizarlo siempre](https://cybmeta.com/meta-charset-como-y-por-que-utilizarlo-siempre)
 * [Validador d'HTML5](https://html5.validator.nu/)
 * [Exemple d'estructura bàsica](./exemples/04_estructura_basica.html)
-* [Com posar el favicon a la teva web](https://raulperez.tieneblog.net/que-es-el-favicon-y-como-ponerlo-en-html/
+* [Com posar el favicon a la teva web](https://raulperez.tieneblog.net/que-es-el-favicon-y-como-ponerlo-en-html/)
 
 
 ---
