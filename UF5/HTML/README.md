@@ -32,7 +32,7 @@
 * [W3Schools: llistat de propietats CSS](https://www.w3schools.com/cssref/)
 * [Taules amb `<table>`: caption, colspan & rowspan](https://aprenderaprogramar.es/index.php?option=com_content&view=article&id=516:crear-tablas-html-colspan-y-rowspan-unir-celdas-horizontal-y-vertical-tr-td-th-caption-o-titulo-cu00719b&catid=69:tutorial-basico-programador-web-html-desde-cero&Itemid=192)
 * [Meta Charset: como y por qué utilizarlo siempre](https://cybmeta.com/meta-charset-como-y-por-que-utilizarlo-siempre)
-* [Validador d'HTML5](https://validator.w3.org/#validate_by_input)
+* [Validador d'HTML5](https://html5.validator.nu/)
 
 ---
 
