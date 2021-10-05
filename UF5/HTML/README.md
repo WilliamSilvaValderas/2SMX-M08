@@ -18,6 +18,9 @@
 * [11. Semàntica en línia](./teoria/11_Semantica_inline.md)
 * [12. Enllaços](./teoria/12_Enllaços.md)
 * [13. Imatges](./teoria/13_Imatges.md)
+* [14. Taules](./teoria/14_Taules.md)
+* [15. Estructura](./teoria/15_Estructura.md)
+* [16. Formularis](./teoria/16_Formularis.md)
 
 ### Recursos
 
