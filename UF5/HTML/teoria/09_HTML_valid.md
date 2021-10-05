@@ -86,7 +86,7 @@ Si veieu aquest exemple al navegador, veureu que:
 * `Hola!`: s'escriu a la pestanya del navegador
 * `Hello World!`: És l'únic text que es mostra a la finestra, perquè és l'únic contingut _dins_ del `<body>`
 
-El <abbr title = "World Wide Web Consortium"> W3C </abbr> proporciona un <a href="https://validator.w3.org/#validate_by_input"> servei de validació de marques </a> per comprovar qualsevol document HTML per detectar errors i advertències.
+El <abbr title = "World Wide Web Consortium"> W3C </abbr> proporciona un <a href="https://validator.w3.org/#validate_by_input"> servei de validació de marques </a> per comprovar qualsevol document HTML per detectar errors i advertències. Una altre alternativa és el validador [https://html5.validator.nu/](https://html5.validator.nu/)
 
 ## Preguntes que heu de respondre a la [pràctica 1](https://moodle.insjoaquimmir.cat/mod/assign/view.php?id=42051)
 
