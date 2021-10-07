@@ -35,6 +35,7 @@
 * [Validador d'HTML5](https://html5.validator.nu/)
 * [Exemple d'estructura bàsica](./exemples/04_estructura_basica.html)
 * [Com posar el favicon a la teva web](https://raulperez.tieneblog.net/que-es-el-favicon-y-como-ponerlo-en-html/)
+* [Com fer servir els tipus de lletra de Google Fonts](https://www.w3schools.com/howto/howto_google_fonts.asp)
 
 
 ---
