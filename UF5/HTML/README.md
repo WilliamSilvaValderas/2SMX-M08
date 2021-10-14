@@ -36,6 +36,7 @@
 * [Exemple d'estructura bàsica](./exemples/04_estructura_basica.html)
 * [Com posar el favicon a la teva web](https://raulperez.tieneblog.net/que-es-el-favicon-y-como-ponerlo-en-html/)
 * [Com fer servir els tipus de lletra de Google Fonts](https://www.w3schools.com/howto/howto_google_fonts.asp)
+* [Introducing HTML5 footer, header, nav, article, section and aside elements](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/introducing-html5-footer-header-nav-article-section-and-aside-elements/)
 
 
 ---
