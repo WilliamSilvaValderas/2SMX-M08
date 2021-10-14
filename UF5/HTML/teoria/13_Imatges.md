@@ -39,7 +39,7 @@ L'atribut `src` defineix l'**ubicació** de la imatge. Igual que amb els enllaç
   <p>
     Mireu el meu gat.
     <br>
-    <img src="../exemples/gat.jpg" alt="el meu gat">
+    <img src="../exemples/gat.jpg" width="300" alt="el meu gat">
   </p>
 </td></tr></table>
 
@@ -72,7 +72,7 @@ Aquest comportament en línia pot tenir resultats inesperats:
 <table bgcolor="grey"><tr><td>
   <p>
     Hi ha una gat
-    <img src="../exemples/gat.jpg">
+    <img src="../exemples/gat.jpg" width="300">
     al mig del paràgraf!
   </p>
 </td></tr></table>
