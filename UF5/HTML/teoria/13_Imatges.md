@@ -8,7 +8,7 @@
 
 **Les imatges** utilitzen l'element `<img>`, que és un element de **tancament automàtic** (només té una etiqueta d'obertura).
 
-L'atribut `src` defineix l'**ubicació** de la imatge. Igual que amb els enllaços, podeu utilitzar URL relatius o _absoluts_.
+L'atribut `src` defineix l'**ubicació** de la imatge. Igual que amb els enllaços, podeu utilitzar URL relatius o _absoluts_. L'atribut `alt` proporciona **informació alternativa en text** per si l'imatge no es pot visualitzar (un error, connexió lenta o s'està fent servir un programa de lectura de pantalla, per exemple, per una persona invident).
 
 <ul class = "files">
   <li>
@@ -31,7 +31,7 @@ L'atribut `src` defineix l'**ubicació** de la imatge. Igual que amb els enllaç
 <p>
   Mireu el meu gat.
   <br>
-  <img src = "gat.jpg">
+  <img src="gat.jpg" alt="el meu gat">
 </p>
 ```
 
@@ -39,9 +39,11 @@ L'atribut `src` defineix l'**ubicació** de la imatge. Igual que amb els enllaç
   <p>
     Mireu el meu gat.
     <br>
-    <img src="../exemples/gat.jpg">
+    <img src="../exemples/gat.jpg" alt="el meu gat">
   </p>
 </td></tr></table>
+
+
 
 ### Dimensions
 
@@ -55,14 +57,14 @@ Si voleu modificar les dimensions d’una imatge, tot i que és possible en HTML
 
 Tot i que una imatge té una amplada i una alçada, i visualment és un gran rectangle, una imatge no **és un element de bloc HTML**, sinó que en realitat és un **element en línia**.
 
-Això es deu a que l'element `<img>` és un element de **tancament automàtic**: tècnicament no pot contenir cap altre element HTML i, per tant, es considera un element en línia, com ara `<a>`, `<fort>` o `<em>`.
+Això es deu a que l'element `<img>` és un element de **tancament automàtic**: tècnicament no pot contenir cap altre element HTML i, per tant, es considera un element en línia, com ara `<a>`, `<strong>` o `<em>`.
 
 Aquest comportament en línia pot tenir resultats inesperats:
 
 ```html
 <p>
   Hi ha un gat
-  <img src = "gat.jpg">
+  <img src="gat.jpg">
   al mig del paràgraf!
 </p>
 ```
