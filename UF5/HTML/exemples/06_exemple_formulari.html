@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Exemple de formularis</title>
+    <style>
+        section {
+            margin-bottom: 50px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid blue;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Exemple amb dues taules</h1>
+    </header>
+    <article>
+        <section>
+            <input type="password" value="hunter2">
+        </section>
+        <section>
+            <input type="number" value="12">
+        </section>
+        <section>
+            <input type="text" placeholder="Introduïu el vostre nom">
+        </section>
+        <section>
+            <label> Correu electrònic </label>
+            <input type="email">
+        </section>
+        <section>
+            <label for="first_name"> Nom </label>
+            <input id="first_name" type="text">
+        </section>
+        <section>
+            <input type="checkbox"> Recordeu-me
+        </section>
+        <section>
+            <label>
+                <input type="checkbox"> Accepto els termes
+            </label>
+        </section>
+        <section>
+            <label>
+                <input type="checkbox" checked> Utilitzar com a adreça de facturació
+            </label>
+        </section>
+        <section>
+            <label> Estat civil </label>
+            <label>
+                <input type="radio" name="status">
+                Solter
+            </label>
+            <label>
+                <input type="radio" name="status">
+                Casat
+            </label>
+            <label>
+                <input type="radio" name="status">
+                Divorciada
+            </label>
+            <label>
+                <input type="radio" name="status">
+                Vidu
+            </label>
+        </section>
+        <section>
+            <select>
+                <option> Gener </option>
+                <option> Febrer </option>
+                <option> Març </option>
+                <option> Abril </option>
+                <option> Maig </option>
+                <option> Juny </option>
+                <option> Juliol </option>
+                <option> Agost </option>
+                <option> Setembre </option>
+                <option> Octubre </option>
+                <option> Novembre </option>
+                <option> Desembre </option>
+            </select>
+        </section>
+        <section>
+            <label> Quins navegadors teniu? </label>
+            <select multiple>
+                <option> Google Chrome </option>
+                <option> Internet Explorer </option>
+                <option> Mozilla Firefox </option>
+                <option> Opera </option>
+                <option> Safari </option>
+            </select>
+        </section>
+        <section>
+            <form action="/signup" method="POST">
+                <p>
+                    <label> Títol </label>
+                    <label>
+                        <input type="radio" name="title" value="mr">
+                        Sr.
+                    </label>
+                    <label>
+                        <input type="radio" name="title" value="mrs">
+                        mrs
+                    </label>
+                    <label>
+                        <input type="radio" name="title" value="miss">
+                        Senyoreta
+                    </label>
+                </p>
+                <p>
+                    <label> Nom </label>
+                    <input type="text" value="first_name">
+                </p>
+                <p>
+                    <label> Cognom </label>
+                    <input type="text" value="last_name">
+                </p>
+                <p>
+                    <label> Correu electrònic </label>
+                    <input type="email" value="email">
+                </p>
+                <p>
+                    <label> Número de telèfon </label>
+                    <input type="tel" value="phone">
+                </p>
+                <p>
+                    <label> Contrasenya </label>
+                    <input type="password" value="password">
+                </p>
+                <p>
+                    <label> Confirmeu la vostra contrasenya </label>
+                    <input type="password" value="password_confirm">
+                </p>
+                <p>
+                    <label> País </label>
+                    <select>
+                        <option> Canadà </option>
+                        <option> França </option>
+                        <option> Alemanya </option>
+                        <option> Itàlia </option>
+                        <option> Japó </option>
+                        <option> Rússia </option>
+                        <option> Regne Unit </option>
+                        <option> Estats Units </option>
+                    </select>
+                </p>
+                <p>
+                    <label>
+                        <input type="checkbox" value="terms">
+                        Accepto els <a href="#"> termes i condicions </a>
+                    </label>
+                </p>
+                <p>
+                    <button>
+                        Registra't
+                    </button>
+                </p>
+            </form>
+        </section>
+    </article>
+    <footer>
+        <p>Web feta per <a href="mailto:alfonso.dasilva@insjoaquimmir.cat">Alfonso</a></p>
+    </footer>
+</body>
+
+</html>

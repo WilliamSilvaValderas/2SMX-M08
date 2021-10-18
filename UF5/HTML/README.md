@@ -19,8 +19,9 @@
 * [12. Enllaços](./teoria/12_Enllaços.md)
 * [13. Imatges](./teoria/13_Imatges.md)
 * [14. Taules](./teoria/14_Taules.md)
-* [15. Estructura](./teoria/15_Estructura.md)
-* [16. Formularis](./teoria/16_Formularis.md)
+* [15. Formularis](./teoria/15_Formularis.md)
+
+<!-- [16. Estructura](./teoria/16_Estructura.md) -->
 
 ### Recursos
 
@@ -38,7 +39,6 @@
 * [Com fer servir els tipus de lletra de Google Fonts](https://www.w3schools.com/howto/howto_google_fonts.asp)
 * [Introducing HTML5 footer, header, nav, article, section and aside elements](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/introducing-html5-footer-header-nav-article-section-and-aside-elements/)
 * [Exemple amb dues taules amb id](./exemples/05_exemple_dues_taules.html)
-
 
 ---
 

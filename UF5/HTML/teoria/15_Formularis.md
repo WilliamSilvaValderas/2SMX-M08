@@ -24,23 +24,15 @@ Per adaptar-se a aquestes necessitats, HTML proporciona **controls de formulari 
 Aquests controls fan servir diferents **etiquetes HTML**, però la majoria utilitzen l'etiqueta `<input>`. Com que és un element de tancament automàtic, el tipus d'entrada es defineix pel seu atribut "type":
 
 ```html
-<! - Una entrada de text ->
+<!-- Una entrada de text -->
 <input type = "text">
-<! - Una casella de selecció ->
+<!-- Una casella de selecció -->
 <input type = "checkbox">
-<! - Un botó d'opció ->
+<!-- Un botó d'opció -->
 <input type = "radio">
 ```
 
-<table bgcolor="grey"><tr><td>
-  <input type = "text">
-  <br>
-  <input type = "checkbox">
-  <br>
-  <input type = "radio">
-</td></tr></table>
-
-### L'element Form
+  ### L'element Form
 
 El `<form>` és un element de nivell de bloc que defineix una part **interactiva** d'una pàgina web. Com a resultat, tots els controls de formulari (com ara `<input>`, `<textarea>` o `<button>`) han d'aparèixer _dins_ d'un element `<form>`.
 
@@ -70,37 +62,31 @@ Gairebé tots els formularis requereixen una entrada **textual** per part dels u
     <tr>
       <th> Text </th>
       <td> <code>&lt;input type = "text"&gt;</code> </td>
-      <td> <input type = "text"> </td>
       <td> Permet qualsevol tipus de caràcter </td>
     </tr>
     <tr>
       <th> Correu electrònic </th>
       <td> <code>&lt;input type = "email"&gt;</code> </td>
-      <td> <input type = "email"> </td>
       <td> Es pot mostrar un advertiment si s'introdueix un correu electrònic no vàlid </td>
     </tr>
     <tr>
       <th> Contrasenya </th>
       <td> <code>&lt;input type = "password"&gt;</code> </td>
-      <td> <input type = "password"> </td>
       <td> Mostra els punts com a caràcters </td>
     </tr>
     <tr>
       <th> Número </th>
       <td> <code>&lt;input type = "number"&gt;</code> </td>
-      <td> <input type = "number"> </td>
       <td> Es poden utilitzar les tecles de teclat amunt / avall </td>
     </tr>
     <tr>
       <th> Telèfon </th>
       <td> <code>&lt;input type = "tel"&gt;</code> </td>
-55      <td> <input type = "text"> </td>
       <td> Pot activar un emplenament automàtic </td>
     </tr>
     <tr>
       <th> Text de diverses línies </th>
       <td> <code>&lt;textarea&gt;&lt;/textarea&gt;</code> </td>
-      <td> <textarea> </textarea> </td>
       <td> Es pot canviar la mida </td>
     </tr>
   </table>
@@ -110,17 +96,7 @@ Tot i que aquestes entrades tenen un aspecte molt semblant i permeten als usuari
 
 Els navegadors poden modificar lleugerament la interfície d'un control per augmentar la seva interactivitat o donar a conèixer quin tipus de contingut és _esperat_.
 
-Per exemple, les entrades de contrasenya mostren punts en lloc de caràcters.
-
-<table bgcolor="grey"><tr><td>
-  <input type = "password" value = "hunter2">
-</td></tr></table>
-
-I les entrades numèriques permeten augmentar / disminuir el seu valor mitjançant les tecles amunt i avall.
-
-<table bgcolor="grey"><tr><td>
-  <input type = "number" value = "12">
-</td></tr></table>
+Per exemple, les entrades de contrasenya mostren punts en lloc de caràcters, i les entrades numèriques permeten augmentar / disminuir el seu valor mitjançant les tecles amunt i avall.
 
 ### Marcadors de posició
 
@@ -129,10 +105,6 @@ Les entrades de text poden mostrar un text de **marcador de posició** amb l'atr
 ```html
 <input type = "text" placeholder = "Introduïu el vostre nom">
 ```
-
-<table bgcolor="grey"><tr><td>
-  <input type = "text" placeholder = "Introduïu el vostre nom">
-</td></tr></table>
 
 Si comenceu a escriure alguna cosa, veureu que desapareix el text _Introduïu el vostre nom_.
 
@@ -145,11 +117,6 @@ Com que els elements de formulari per si sols no són molt descriptius, solen an
 <input type = "email">
 ```
 
-<table bgcolor="grey"><tr><td>
-  <label> Correu electrònic </label>
-  <input type = "email">
-</td></tr></table>
-
 Tot i que els espais reservats ja ofereixen alguns indicis sobre el contingut que s’espera, les etiquetes tenen l’avantatge de mantenir-se visibles en tot moment i es poden utilitzar junt amb altres tipus de controls de formulari, com ara caselles de selecció o botons d’opció.
 
 Tot i que podeu fer servir paràgrafs curts per descriure elements del formulari, l'ús de `<label>` és semànticament més vàlid perquè només existeixen dins dels formularis i es pot emparellar amb un control de formulari específic mitjançant l'atribut `for` i fent coincidir el seu valor amb el `id` de l'entrada.
@@ -158,11 +125,6 @@ Tot i que podeu fer servir paràgrafs curts per descriure elements del formulari
 <label for = "first_name"> Nom </label>
 <input id = "first_name" type = "text">
 ```
-
-<table bgcolor="grey"><tr><td>
-  <label for = "first_name"> Nom </label>
-  <input id = "first_name" type = "text">
-</td></tr></table>
 
 En fer clic a l’etiqueta, se centrarà l’entrada de text i es col·locarà el cursor de text a dins. Tot i que aquest emparellament sembla inútil, serà útil amb caselles de selecció i botons d’opció.
 
@@ -174,10 +136,6 @@ En fer clic a l’etiqueta, se centrarà l’entrada de text i es col·locarà e
 <input type = "checkbox"> Recordeu-me
 ```
 
-<table bgcolor="grey"><tr><td>
-  <input type = "checkbox"> Recordeu-me
-</td></tr></table>
-
 Com que pot ser difícil fer clic a una casella de selecció petita, es recomana embolicar una `<label>` al voltant de la casella de selecció **i** la seva descripció.
 
 ```html
@@ -185,12 +143,6 @@ Com que pot ser difícil fer clic a una casella de selecció petita, es recomana
   <input type = "checkbox"> Accepto els termes
 </label>
 ```
-
-<table bgcolor="grey"><tr><td>
-  <label>
-    <input type = "checkbox"> Accepto els termes
-  </label>
-</td></tr></table>
 
 Podeu fer clic a _Accepto els termes_ per canviar la casella de selecció.
 
@@ -201,12 +153,6 @@ Per defecte, es desmarca una entrada de casella de selecció. Podeu marcar-lo co
   <input type = "checkbox" checked> Utilitzar com a adreça de facturació
 </label>
 ```
-
-<table bgcolor="grey"><tr><td>
-  <label>
-    <input type = "checkbox" checked> Utilitzar com a adreça de facturació
-  </label>
-</td></tr></table>
 
 ### Botons d'opció
 
@@ -233,30 +179,6 @@ Perquè aquest control de formulari funcioni, el vostre codi HTML ha de **agrupa
   Vidu
 </label>
 ```
-
-<table bgcolor="grey"><tr><td>
-  <label> Estat civil </label>
-  <br>
-  <label>
-    <input type = "radio" name = "status">
-    Solter
-  </label>
-  <br>
-  <label>
-    <input type = "radio" name = "status">
-    Casat
-  </label>
-  <br>
-  <label>
-    <input type = "radio" name = "status">
-    Divorciada
-  </label>
-  <br>
-  <label>
-    <input type = "radio" name = "status">
-    Vidu
-  </label>
-</td></tr></table>
 
 Com que tots els botons d'opció utilitzen el mateix _valor_ per al seu atribut `name` (en aquest cas el valor `status`), en seleccionar una opció es desseleccionaran totes les altres. Es diu que els botons d’opció són **mútuament excloents**.
 
@@ -289,23 +211,6 @@ Funcionen com botons de ràdio. Només el seu disseny és diferent.
 </select>
 ```
 
-<table bgcolor="grey"><tr><td>
-  <select>
-    <option> Gener </option>
-    <option> Febrer </option>
-    <option> Març </option>
-    <option> Abril </option>
-    <option> Maig </option>
-    <option> Juny </option>
-    <option> Juliol </option>
-    <option> Agost </option>
-    <option> Setembre </option>
-    <option> Octubre </option>
-    <option> Novembre </option>
-    <option> Desembre </option>
-  </select>
-</td></tr></table>
-
 #### Menús desplegables d'elecció múltiple
 
 Si afegiu l'atribut `multiple`, podeu proporcionar la possibilitat de seleccionar diverses opcions.
@@ -320,18 +225,6 @@ Si afegiu l'atribut `multiple`, podeu proporcionar la possibilitat de selecciona
   <option> Safari </option>
 </select>
 ```
-
-<table bgcolor="grey"><tr><td>
-  <label> Quins navegadors teniu? </label>
-  <br>
-  <select multiple>
-    <option> Google Chrome </option>
-    <option> Internet Explorer </option>
-    <option> Mozilla Firefox </option>
-    <option> Opera </option>
-    <option> Safari </option>
-  </select>
-</td></tr></table>
 
 Seleccioneu diverses opcions mantenint Ctrl i fent clic. Aquesta pot ser una bona alternativa a l’ús de diverses caselles de selecció seguides.
 
@@ -404,74 +297,6 @@ Seleccioneu diverses opcions mantenint Ctrl i fent clic. Aquesta pot ser una bon
   </p>
 </form>
 ```
-
-<table bgcolor="grey"><tr><td>
-  <form action = "/signup" method = "POST">
-  <p>
-    <label> Títol </label>
-    <label>
-      <input type = "radio" name = "title" value = "mr">
-      Sr.
-    </label>
-    <label>
-      <input type = "radio" name = "title" value = "mrs">
-      mrs
-    </label>
-    <label>
-      <input type = "radio" name = "title" value = "miss">
-      Senyoreta
-    </label>
-  </p>
-  <p>
-    <label> Nom </label>
-    <input type = "text" value = "first_name">
-  </p>
-  <p>
-    <label> Cognom </label>
-    <input type = "text" value = "last_name">
-  </p>
-  <p>
-    <label> Correu electrònic </label>
-    <input type = "email" value = "email">
-  </p>
-  <p>
-    <label> Número de telèfon </label>
-    <input type = "tel" value = "phone">
-  </p>
-  <p>
-    <label> Contrasenya </label>
-    <input type = "password" value = "password">
-  </p>
-  <p>
-    <label> Confirmeu la vostra contrasenya </label>
-    <input type = "password" value = "password_confirm">
-  </p>
-  <p>
-    <label> País </label>
-    <select>
-      <option> Canadà </option>
-      <option> França </option>
-      <option> Alemanya </option>
-      <option> Itàlia </option>
-      <option> Japó </option>
-      <option> Rússia </option>
-      <option> Regne Unit </option>
-      <option> Estats Units </option>
-    </select>
-  </p>
-  <p>
-    <label>
-      <input type = "checkbox" value = "terms">
-      Accepto els <a href="/terms"> termes i condicions </a>
-    </label>
-  </p>
-  <p>
-    <button>
-      Registra't
-    </button>
-  </p>
-</form>
-</td></tr></table>
 
 Hi ha altres controls de formulari disponibles, però hem cobert els que més faran servir.
 
