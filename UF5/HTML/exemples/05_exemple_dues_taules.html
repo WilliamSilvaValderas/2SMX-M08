@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Exemple amb dues taules</title>
+    <style>
+        body {
+            background-color: cornsilk;
+        }
+
+        th,
+        td {
+            padding: 15px;
+            text-align: left;
+        }
+
+        #horari {
+            border: 1px solid red;
+            border-collapse: collapse;
+        }
+
+        #horari td {
+            background-color: lightsalmon;
+        }
+
+        #horari th {
+            background-color: salmon;
+        }
+
+        #ufs {
+            border-collapse: separate;
+        }
+
+        #ufs td,
+        #ufs th {
+            border: 5px solid blue;
+        }
+
+        footer a {
+            color: rgb(94, 94, 94);
+        }
+
+        footer {
+            color: gray;
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Exemple amb dues taules</h1>
+    </header>
+    <article>
+        <table id="horari">
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+            </tr>
+            <tr>
+                <td>Peter</td>
+                <td>Griffin</td>
+            </tr>
+            <tr>
+                <td>Lois</td>
+                <td>Griffin</td>
+            </tr>
+        </table>
+        <hr>
+        <table id="ufs">
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+            </tr>
+            <tr>
+                <td>Peter</td>
+                <td>Griffin</td>
+            </tr>
+            <tr>
+                <td>Lois</td>
+                <td>Griffin</td>
+            </tr>
+        </table>
+    </article>
+    <footer>
+        <p>Web feta per <a href="mailto:alfonso.dasilva@insjoaquimmir.cat">Alfonso</a></p>
+    </footer>
+</body>
+
+</html>
