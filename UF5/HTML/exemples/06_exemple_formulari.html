@@ -94,49 +94,49 @@
             </select>
         </section>
         <section>
-            <form action="/signup" method="POST">
+            <form action="https://alumnes.insjoaquimmir.cat/dump/" method="POST">
                 <p>
-                    <label> Títol </label>
+                    <label> Gènere </label>
                     <label>
-                        <input type="radio" name="title" value="mr">
-                        Sr.
+                        <input type="radio" name="genere" value="home">
+                        Home
                     </label>
                     <label>
-                        <input type="radio" name="title" value="mrs">
-                        mrs
+                        <input type="radio" name="title" value="dona">
+                        Dona
                     </label>
                     <label>
-                        <input type="radio" name="title" value="miss">
-                        Senyoreta
+                        <input type="radio" name="title" value="ns/nc">
+                        Altres/Prefereixo no dir-ho
                     </label>
                 </p>
                 <p>
                     <label> Nom </label>
-                    <input type="text" value="first_name">
+                    <input type="text" name="nom" placeholder="Nom">
                 </p>
                 <p>
-                    <label> Cognom </label>
-                    <input type="text" value="last_name">
+                    <label> Cognoms </label>
+                    <input type="text" name="cognoms" placeholder="Cognom1 Cognom2">
                 </p>
                 <p>
                     <label> Correu electrònic </label>
-                    <input type="email" value="email">
+                    <input type="email" name="email" placeholder="el@teu.email">
                 </p>
                 <p>
                     <label> Número de telèfon </label>
-                    <input type="tel" value="phone">
+                    <input type="tel" name="tel" placeholder="Num de telèfon">
                 </p>
                 <p>
                     <label> Contrasenya </label>
-                    <input type="password" value="password">
+                    <input name="contrasenya" type="password">
                 </p>
                 <p>
                     <label> Confirmeu la vostra contrasenya </label>
-                    <input type="password" value="password_confirm">
+                    <input name="contrasenya_confirmada" type="password">
                 </p>
                 <p>
                     <label> País </label>
-                    <select>
+                    <select name="pais">
                         <option> Canadà </option>
                         <option> França </option>
                         <option> Alemanya </option>
@@ -149,14 +149,12 @@
                 </p>
                 <p>
                     <label>
-                        <input type="checkbox" value="terms">
+                        <input type="checkbox" name="termes" value="accepto">
                         Accepto els <a href="#"> termes i condicions </a>
                     </label>
                 </p>
                 <p>
-                    <button>
-                        Registra't
-                    </button>
+                    <input type="submit" value="Registra't">
                 </p>
             </form>
         </section>

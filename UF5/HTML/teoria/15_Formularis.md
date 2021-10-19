@@ -231,70 +231,68 @@ Seleccioneu diverses opcions mantenint Ctrl i fent clic. Aquesta pot ser una bon
 ### Exemple: un formulari d'inscripció complet
 
 ```html
-<form action = "/signup" method = "POST">
-  <p>
-    <label> Títol </label>
-    <label>
-      <input type = "radio" name = "title" value = "mr">
-      Sr.
-    </label>
-    <label>
-      <input type = "radio" name = "title" value = "mrs">
-      mrs
-    </label>
-    <label>
-      <input type = "radio" name = "title" value = "miss">
-      Senyoreta
-    </label>
-  </p>
-  <p>
-    <label> Nom </label>
-    <input type = "text" value = "first_name">
-  </p>
-  <p>
-    <label> Cognom </label>
-    <input type = "text" value = "last_name">
-  </p>
-  <p>
-    <label> Correu electrònic </label>
-    <input type = "email" value = "email">
-  </p>
-  <p>
-    <label> Número de telèfon </label>
-    <input type = "tel" value = "phone">
-  </p>
-  <p>
-    <label> Contrasenya </label>
-    <input type = "password" value = "password">
-  </p>
-  <p>
-    <label> Confirmeu la vostra contrasenya </label>
-    <input type = "password" value = "password_confirm">
-  </p>
-  <p>
-    <label> País </label>
-    <select>
-      <option> Canadà </option>
-      <option> França </option>
-      <option> Alemanya </option>
-      <option> Itàlia </option>
-      <option> Japó </option>
-      <option> Rússia </option>
-      <option> Regne Unit </option>
-      <option> Estats Units </option>
-    </select>
-  </p>
-  <p>
-    <label>
-      <input type = "checkbox" value = "terms">
-      Accepto els <a href="/terms"> termes i condicions </a>
-    </label>
-  </p>
-  <p>
-    <button>
-      Registra't
-    </button>
-  </p>
+<form action="#" method="POST">
+    <p>
+        <label> Gènere </label>
+        <label>
+            <input type="radio" name="genere" value="home">
+            Home
+        </label>
+        <label>
+            <input type="radio" name="title" value="dona">
+            Dona
+        </label>
+        <label>
+            <input type="radio" name="title" value="ns/nc">
+            Altres/Prefereixo no dir-ho
+        </label>
+    </p>
+    <p>
+        <label> Nom </label>
+        <input type="text" name="nom" placeholder="Nom">
+    </p>
+    <p>
+        <label> Cognoms </label>
+        <input type="text" name="cognoms" placeholder="Cognom1 Cognom2">
+    </p>
+    <p>
+        <label> Correu electrònic </label>
+        <input type="email" name="email" placeholder="el@teu.email">
+    </p>
+    <p>
+        <label> Número de telèfon </label>
+        <input type="tel" name="tel" placeholder="Num de telèfon">
+    </p>
+    <p>
+        <label> Contrasenya </label>
+        <input name="contrasenya" type="password">
+    </p>
+    <p>
+        <label> Confirmeu la vostra contrasenya </label>
+        <input name="contrasenya_confirmada" type="password">
+    </p>
+    <p>
+        <label> País </label>
+        <select name="pais">
+            <option> Canadà </option>
+            <option> França </option>
+            <option> Alemanya </option>
+            <option> Itàlia </option>
+            <option> Japó </option>
+            <option> Rússia </option>
+            <option> Regne Unit </option>
+            <option> Estats Units </option>
+        </select>
+    </p>
+    <p>
+        <label>
+            <input type="checkbox" name="termes" value="accepto">
+            Accepto els <a href="#"> termes i condicions </a>
+        </label>
+    </p>
+    <p>
+        <input type="submit" value="Registra't">
+    </p>
 </form>
 ```
 
