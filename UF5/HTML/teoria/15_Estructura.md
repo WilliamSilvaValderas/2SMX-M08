@@ -78,7 +78,6 @@ Les seccions _elles mateixes_ no tenen un significat específic. Es tracta més 
 
 Podem pensar en fer servir l'element `section` quan, per exemple, dins del `main` tenim diferents parts que volem diferenciar.
 
-
 ## Preguntes que heu de respondre a la [pràctica 1](https://moodle.insjoaquimmir.cat/mod/assign/view.php?id=42051)
 
 1. Consulta la imatge de [l'article següent](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/introducing-html5-footer-header-nav-article-section-and-aside-elements/) on es mostren els elements `header`, `main`, `footer`. Explica, consultant l'article, per a que serveixen els elements `aside` i `nav`.

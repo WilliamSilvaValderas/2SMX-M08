@@ -19,7 +19,8 @@
 * [12. Enllaços](./teoria/12_Enllaços.md)
 * [13. Imatges](./teoria/13_Imatges.md)
 * [14. Taules](./teoria/14_Taules.md)
-* [15. Formularis](./teoria/15_Formularis.md)
+* [15. Estructura](./teoria/15_Estructura.md)
+* [16. Formularis](./teoria/16_Formularis.md)
 
 <!-- [16. Estructura](./teoria/16_Estructura.md) -->
 
