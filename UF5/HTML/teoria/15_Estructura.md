@@ -6,8 +6,8 @@ Quan escriviu contingut HTML com ara paràgrafs, llistes o enllaços, proporcion
 
 Per exemple, la pàgina web d'un bloc es pot dividir en **4** parts:
 
-* `header`: una **capçalera** que és similar a totes les pàgines i que és la navegació principal del lloc web
-* `main`: un contingut **principal**, que canvia per a cada pàgina: una llista d'articles, un sol article amb comentaris, una pàgina de contacte, etc.
+* `header`: una **capçalera** que és similar a totes les pàgines i que és la navegació principal del lloc web (dins de `nav`)
+* `article`: un contingut independent, complert, que canvia per a cada pàgina. Per exemple, una noticia, o un recepta de cuina, o la informació de contacte amb l'autor/a de la pàgina, etc.
 * `sidebar`: una **barra lateral** que enllaça amb arxius i potser categories
 * `footer`: un **peu de pàgina** per obtenir enllaços addicionals a pàgines menys importants
 
@@ -15,25 +15,43 @@ Hi ha alguns **elements HTML estructurals** que podeu utilitzar com a **contenid
 
 ### Capçalera: header
 
-El `header` sol ser el **primer** element HTML del codi. Actua com una **introducció** a la pàgina web, amb el logotip, un eslògan i enllaços de navegació.
+El `header` sol ser el **primer** element HTML del codi. Actua com una **introducció** a la pàgina web, potser amb el logotip, el nom de la pàgina i enllaços de navegació.
 
 ```html
 <header>
-  <p>
-    <a>
-      <img src = "my-logo.jpg" alt = "Logotip de Tomaquet.cat">
-    </a>
-    <em> Un lloc web fantàstic </em>
-  </p>
-  <ul>
-    <li>
-      <a href="home.html"> Inici </a>
-      <a href="about.html"> Quant a </a>
-      <a href="contact.html"> Contacte </a>
-    </li>
-  </ul>
+  <img src = "my-logo.jpg" alt = "Logotip de Tomaquet.cat">
+  <h1>Tomàquets per tothom!</h1>
+  <nav>
+    <ul>
+      <li>
+        <a href="home.html"> Inici </a>
+        <a href="about.html"> Quant a </a>
+        <a href="contact.html"> Contacte </a>
+      </li>
+    </ul>
+  </nav>
 </header>
 ```
+
+### Contingut: article
+
+L'element `article` especifica contingut independent i autònom. Un article hauria de tenir sentit per si sol i hauria de ser possible distribuir-lo independentment de la resta del lloc web. Per exemple, es pot utilitzar l'element `<article>` a:
+
+* Publicacions del fòrum
+* Publicacions de blocs
+* Comentaris dels usuaris
+* Descripcions d'un producte a una botiga
+* Articles de diaris
+
+És possible que hi hagi més d'un element `article` a una pàgina web, per exemple, podriem tenir totes les noticies d'un diari i posar cadascuna d'elles dins d'una etiqueta `article`.
+
+### Subapartats: section
+
+L'element `section` permet **agrupar** diferents elements.
+
+Les seccions _elles mateixes_ no tenen un significat específic. Es tracta més de la _relació entre els seus elements secundaris_ que del seu propi significat a la pàgina general.
+
+Podem pensar en fer servir l'element `section` quan, per exemple, dins d'una etiqueta `article` tenim diferents parts que volem diferenciar.
 
 ### Peu de pàgina: footer
 
@@ -63,20 +81,6 @@ A diferència de la capçalera, el `footer` sol ser el **darrer** element d'una 
   </ul>
 </footer>
 ```
-
-### Principal: main
-
-L'element `main` conté, com el seu nom indica, el **contingut més important de la pàgina**, el que defineix l'objectiu de la pàgina.
-
-Tot i que totes les pàgines web d'un lloc web contenen elements _comuns_ (com la capçalera, la navegació, el peu de pàgina ...), l'element `main` se centra en el contingut **únic**.
-
-### Subapartats: section
-
-L'element `section` permet **agrupar** diferents elements.
-
-Les seccions _elles mateixes_ no tenen un significat específic. Es tracta més de la _relació entre els seus elements secundaris_ que del seu propi significat a la pàgina general.
-
-Podem pensar en fer servir l'element `section` quan, per exemple, dins del `main` tenim diferents parts que volem diferenciar.
 
 ## Preguntes que heu de respondre a la [pràctica 1](https://moodle.insjoaquimmir.cat/mod/assign/view.php?id=42051)
 
