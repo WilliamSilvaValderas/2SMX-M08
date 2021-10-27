@@ -41,6 +41,7 @@
 * [Introducing HTML5 footer, header, nav, article, section and aside elements](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/introducing-html5-footer-header-nav-article-section-and-aside-elements/)
 * [Exemple amb dues taules amb id](./exemples/05_exemple_dues_taules.html)
 * [Exemple d'un portal web](./exemples/06_portal_web/)
+* [Exemples de formularis](./exemples/07_exemple_formulari.html)
 
 ---
 
