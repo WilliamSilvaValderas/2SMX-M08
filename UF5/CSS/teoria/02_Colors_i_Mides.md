@@ -1,6 +1,6 @@
 ---
 marp: true
-title: CSS
+title: Colors i Mides
 paginate: true
 ---
 

@@ -1,6 +1,6 @@
 ---
 marp: true
-title: CSS
+title: Selectors
 paginate: true
 ---
 

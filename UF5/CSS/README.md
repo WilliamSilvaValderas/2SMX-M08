@@ -4,9 +4,9 @@
 
 ### Teoria
 
-* [00. Introducció al CSS](./pdf/00_Introduccio.md)
-* [01. Selectors](./pdf/01_Selectors.md)
-* [02. Colors i Mides](./pdf/02_Colors_i_Mides.md)
+* [00. Introducció al CSS](./teoria/00_Introduccio.pdf)
+* [01. Selectors](./teoria/01_Selectors.pdf)
+* [02. Colors i Mides](./teoria/02_Colors_i_Mides.pdf)
 
 
 ### Recursos

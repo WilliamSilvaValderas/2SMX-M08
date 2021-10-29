@@ -1,6 +1,6 @@
 ---
 marp: true
-title: CSS
+title: Introducció al CSS
 paginate: true
 ---
 
