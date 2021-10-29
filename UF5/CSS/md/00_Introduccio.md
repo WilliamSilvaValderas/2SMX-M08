@@ -39,7 +39,7 @@ Podeu utilitzar una etiqueta `<style>` al `<head>` del vostre document HTML:
   <head>
     <title>Hola món</title>
     <style type="text/css">
-      p{ color: vermell;}
+      p{ color: red;}
     </style>
   </head>
   <body>
@@ -177,6 +177,6 @@ h3 {
 }
 /*
 Els comentaris només estan destinats a ser llegits per humans
-i no seran analitzat per l'ordinador
+i no seran analitzats per l'ordinador
 */
 ```

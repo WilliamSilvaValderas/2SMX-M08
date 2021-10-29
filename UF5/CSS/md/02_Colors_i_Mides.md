@@ -8,7 +8,7 @@ paginate: true
 
 ---
 
-## Introducció
+## Colors
 
 Els **colors** són molt utilitzats en CSS, ja sigui per al color del text, el color de fons, els degradats, les ombres, les vores... Hi ha diverses maneres de definir els colors en CSS, cadascuna amb els seus pros i contres.
 

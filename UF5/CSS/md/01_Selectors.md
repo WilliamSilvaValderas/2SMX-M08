@@ -35,7 +35,7 @@ Hi ha una connexió directa entre el _nom_ de l'etiqueta HTML i el _selector_ CS
 
 Tenint en compte que probablement no volem estilitzar tots els paràgrafs o tots els títols de manera idèntica, hem de _diferenciar-los_.
 
-De tots els atributs HTML, l'atribut `class` és el més important per a CSS. Ens permet definir un **grup** d'elements HTML als quals podem _orientar específicament_. Només cal que poseu un punt `.` davant del nom de la classe que voleu utilitzar:
+De tots els atributs HTML, l'atribut `class` és el més important per a CSS. Ens permet definir un **grup** d'elements HTML als quals podem _orientar específicament_. Només cal que poseu un punt `.` davant del nom de la classe que voleu utilitzar.
 
 ---
 
@@ -43,7 +43,7 @@ De tots els atributs HTML, l'atribut `class` és el més important per a CSS. En
 
 ```css
 .data {
-  color: vermell;
+  color: red;
 }
 ```
 
@@ -70,6 +70,27 @@ Tingueu en compte que en aquest exemple nom de l'etiqueta és **irrellevant**. N
 
 ---
 
+## Class (IV)
+
+És possible assignar a l'atribut HTML `class` més d'un valor. Per exemple:
+
+```css
+.error {
+  color: red;
+}
+.destacat {
+  background-color: yellow;
+}
+```
+
+```html
+<p class="error destacat">Password incorrecte!</p>
+```
+
+Aquest paràgraf serà vermell amb groc com a color de fons.
+
+---
+
 ## Id
 
 També podeu utilitzar l'atribut `id` al vostre HTML i orientar-lo amb un hash `#` al vostre CSS:
@@ -84,7 +105,7 @@ També podeu utilitzar l'atribut `id` al vostre HTML i orientar-lo amb un hash `
 
 Els id són similars a les classes, ja que es basen en un atribut HTML.
 
-**L'id d'un element és únic dins d'una pàgina!**
+**Atenció! L'`id` d'un element és únic dins d'una pàgina!**
 
 ---
 
@@ -94,7 +115,7 @@ Reutilitzem el nostre exemple anterior on volem que les nostres dates siguin ver
 
 ```css
 .data {
-  color: vermell;
+  color: red;
 }
 ```
 
@@ -117,16 +138,16 @@ Podem **afegir** la següent regla CSS:
 
 ```css
 em.data {
-  color: blau;
+  color: blue;
 }
 ```
 
-El `em.data combina:
+El `em.data` combina:
 
 * un selector d'etiquetes `em`
 * un selector de classe `.data`
 
-Només s'aplicarà als elements HTML `<em class="date"></em>`. **No** afectarà altres elements `.data` o a les altres etiquetes`em`.
+Només s'aplicarà als elements HTML `<em class="data"></em>`. **No** afectarà altres elements `.data` o a les altres etiquetes`em`.
 
 ---
 
@@ -136,7 +157,7 @@ Un **espai** en un selector defineix una relació avantpassat/descendent. Supose
 
 ```css
 header a {
-  color: vermell;
+  color: red;
 }
 ```
 
@@ -152,11 +173,11 @@ Els selectors de pseudoclasse s'adjunten als selectors habituals i comencen amb 
 
 ```css
 a {
-  color: blau;
+  color: blue;
 }
 
 a:hover {
-  color: vermell;
+  color: red;
 }
 ```
 
@@ -214,8 +235,8 @@ Alguns elements HTML no hereten dels seus avantpassats. Els enllaços, per exemp
 Si hi ha selectors similars al vostre CSS, l'últim definit tindrà prioritat.
 
 ```css
-p{ color: verd;}
-p{ color: vermell;}
+p{ color: green;}
+p{ color: red;}
 /* Els paràgrafs seran vermells */
 ```
 
