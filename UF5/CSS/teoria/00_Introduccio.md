@@ -147,10 +147,10 @@ Dues observacions
 
 ## Exemple ràpid (III)
 
-Ara ens agradaria posar un estil idèntic també als títols `<h3>`. Podríem copiar i enganxar la regla CSS i només canviar el selector, però, com hauríeu endevinat, hi ha una manera més ràpida:
+Ara ens agradaria posar un estil idèntic també als títols `<h1>`. Podríem copiar i enganxar la regla CSS i només canviar el selector, però, com hauríeu endevinat, hi ha una manera més ràpida:
 
 ```css
-h2,
+h1,
 h3 { 
     background-color: lightgreen;
     color: darkgreen;
@@ -170,8 +170,8 @@ Com en HTML, pot ser útil escriure comentaris CSS:
 ```css
 /* Aquest és un comentari CSS */
 
-h2,
-h3 { 
+h1,
+h2 { 
     background-color: lightgreen;
     color: darkgreen;
 }

@@ -68,7 +68,7 @@ La unitat de color `rgba` és `rgb` a la qual afegim un valor **alfa** (que va d
 
 ```css
 /* Un color negre lleugerament transparent. */
-body{ color: rgba(0, 0, 0, 0,8);}
+body{ color: rgba(0, 0, 0, 0.8);}
 ```
 
 El propòsit que un color sigui transparent és barrejar-se amb el fons i, per tant, semblar lleugerament diferent segons el context. És especialment útil per als **colors de fons**.
@@ -167,7 +167,7 @@ _No confongueu la unitat de mida CSS `em` i el selector CSS `em`, que s'orienta 
 La unitat `em` és interessant ja que definiu les mides de lletra dels elements HTML _relatives_ entre si. Per dissenyar una pàgina web agradable i fàcil de llegir, necessiteu una profunditat visual constant. Per exemple, voleu que el vostre `<h1>` sigui el doble de gran que el vostre text corporal, el vostre `<h2>` només 1,5 vegades més gran i el vostre peu de pàgina una mica més petit. Això es podria aconseguir fàcilment en CSS:
 
 ```css
-body{ mida de la font: 16px;}
+body{ font-size: 16px;}
 h1{ font-size: 2em;} /* = 32px */
 h2{ mida del tipus de lletra: 1,5 em;} /* = 24 píxels */
 footer{ font-size: 0.75em;} /* = 12px */
@@ -182,9 +182,9 @@ Si decidiu canviar la mida del text del cos, les mides relatives dels encapçala
 Amb només canviar un valor, tots els altres valors s'alteren:
 
 ```css
-cos{ mida de la font: 20px;}
+body{ font-size: 20px;}
 h1{ font-size: 2em;} /* = 40px */
-h2{ mida de la font: 1,5 em;} /* = 30 píxels */
+h2{ font-size: 1,5 em;} /* = 30 píxels */
 footer{ font-size: 0.75em;} /* = 16px */
 ```
 
@@ -195,10 +195,10 @@ footer{ font-size: 0.75em;} /* = 16px */
 La unitat `rem` és semblant a `em`, però en comptes de dependre del valor del _parent_, es basa en el valor de l'**element arrel**, que és l'element `<html>`.
 
 ```css
-html{ mida de la font: 18px;}
+html{ font-size: 18px;}
 body{ font-size: 1rem;} /* = 18px */
 h1{ font-size: 2rem;} /* = 36px */
-h2{ mida del tipus de lletra: 1.5rem;} /* = 27px */
+h2{ font-size: 1.5rem;} /* = 27px */
 ```
 
 ---
@@ -210,7 +210,7 @@ La diferència entre `rem` i `em` és que els valors `rem` són **fixos** mentre
 Si configureu el vostre `html{ font-size: 18px;}`:
 
 * `2rem` sempre serà igual a `36px`, sense importar on utilitzeu al vostre CSS
-* `2em` sempre serà igual a **doble** la `mida de la lletra` dels pares, de manera que no necessàriament `36px`
+* `2em` sempre serà igual a **doble** la `font-size` dels pares, de manera que no necessàriament `36px`
 
 ---
 
@@ -219,13 +219,13 @@ Si configureu el vostre `html{ font-size: 18px;}`:
 Exemple ràpid on "2em" és diferent de "2rem":
 
 ```css
-html{ mida de la font: 20px;}
-p{ mida de la font: 0.8rem;} /* = 16px */
-p span{ font-size: 2em;} /* = 16px * 2 = 32px */
-p fort{ font-size: 2rem;} /* = 20px * 2 = 40px */
+html{ font-size: 20px;}
+p{ font-size: 0.8rem;} /* = 16px */
+p em{ font-size: 2em;} /* = 16px * 2 = 32px */
+p strong{ font-size: 2rem;} /* = 20px * 2 = 40px */
 ```
 
-El `span` es basa en el valor de la mida del tipus de lletra `p` mentre que el `strong` es basa en el valor de la mida del tipus de lletra `html`.
+El `em` es basa en el valor de la mida del tipus de lletra `p` mentre que el `strong` es basa en el valor de la mida del tipus de lletra `html`.
 
 ---
 

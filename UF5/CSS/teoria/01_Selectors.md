@@ -153,15 +153,15 @@ Només s'aplicarà als elements HTML `<em class="data"></em>`. **No** afectarà 
 
 ### Selectors de jerarquia
 
-Un **espai** en un selector defineix una relació avantpassat/descendent. Suposem que volem que els enllaços de la nostra capçalera estiguin en vermell:
+Un **espai** en un selector defineix una relació avantpassat/descendent. Suposem que volem que els enllaços de de dins d'una taula estiguin en vermell:
 
 ```css
-header a {
+table a {
   color: red;
 }
 ```
 
-Això es pot llegir de dreta a esquerra com: _"Seleccioneu tots els elements `a` que es troben dins d'un element `header`"_. Això evitarà que tots els altres enllaços (que no estiguin al header) es vegin afectats.
+Això es pot llegir de dreta a esquerra com: _"Seleccioneu tots els elements `a` que es troben dins d'un element `table`"_. Això evitarà que tots els altres enllaços (que no estiguin al header) es vegin afectats.
 
 ---
 
