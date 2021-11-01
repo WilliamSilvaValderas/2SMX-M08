@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Exàmen HTML</title>
+</head>
+
+<body>
+    <header>
+        <h1>Història de l'HTML</h1>
+        <div>
+            <!-- exemple amb pseudoselectors -->
+            <a href="#origens">Oríges</a>
+            <a href="#versions">Versions d’HTML</a>
+            <a href="#diferencies">Diferències introduïdes amb HTML5</a>
+            <a href="#etiquetes">Etiquetes d’HTML5</a>
+        </div>
+    </header>
+    <article>
+        <h2 id="origens">Orígens</h2>
+        <p>En el seu origen, l'HTML era un <strong>llenguatge dissenyat per compartir informació científica</strong>
+            entre científics de tot el món. Era purament un llenguatge estructural, en què no hi havia forma de
+            descriure l'aparença de les pàgines (ni tan sols la possibilitat de posar un text en negreta o cursiva).
+            Més endavant s'hi van afegir nombroses opcions per formatar i presentar text i gràfics. </p>
+        <p>A mitjans de la dècada de 1990 van començar les ampliacions de l'HTML per aconseguir la presentació
+            desitjada, però sempre des de diferents perspectives de diferents desenvolupadors, que van acabar amb
+            diverses solucions no estàndards per a diferents navegadors. Això va provocar l'aparició d'un consorci
+            que controla l'evolució de l'HTML: el <a href="https://www.w3.org/">W3C</a> (World Wide Web Consortium).
+        </p>
+        <p><img src="w3c.jpg" alt="w3c"> </p>
+        <p>Aquesta evolució tenia un punt clau: la <strong>separació del contingut i l'aparença.</strong> Amb la
+            versió 4 de l'HTML, publicada l’any 2000, es recomanava un altre mecanisme per controlar la
+            visualització del nostre contingut HTML: els fulls d'estil (CSS: Cascading Style Sheets). </p>
+        <p>El 2004, es va començar a desenvolupar HTML5 al grup de treball <a href="https://whatwg.org/">WHATWG</a>
+            , del que formen part la Fundació Mozilla i Opera, que es va convertir en un producte conjunt amb el W3C
+            el 2008, i es va completar i estandarditzar el
+            <!-- exemple amb selector class -->
+            <em>28 d’octubre de 2014.</em>
+        </p>
+        <p><img src="WHATWG.jpg" alt="WHATWG"> </p>
+        <!-- exemple amb selector class múltiple -->
+        <h2 id="versions">Versions d’HTML</h2>
+        <p>Taula resum de les versions d’HTML i qui la defineix</p>
+        <!-- exemple amb selector id -->
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="3">Versions d’HTML</th>
+                </tr>
+                <tr>
+                    <th>Versió</th>
+                    <th>Any</th>
+                    <th>Qui la defineix</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML 1</td>
+                    <!-- exemple amb selector class -->
+                    <td>1989</td>
+                    <!-- exemple amb selector de jeraquia -->
+                    <td><a href="https://ca.wikipedia.org/wiki/Tim_Berners-Lee">Tim Berners-Lee</a></td>
+                </tr>
+                <tr>
+                    <td>HTML 2</td>
+                    <td>1995</td>
+                    <td>IEFT</td>
+                </tr>
+                <tr>
+                    <td>HTML 3</td>
+                    <td>1997</td>
+                    <td rowspan="2">W3C</td>
+                </tr>
+                <tr>
+                    <td>HTML 4</td>
+                    <td>1999</td>
+                </tr>
+                <tr>
+                    <td>HTML 5</td>
+                    <td>2004</td>
+                    <td>WHATWG</td>
+                </tr>
+            </tbody>
+        </table>
+        <iframe width="700" height="415" src="https://www.youtube.com/embed/7hHAQEd6Cqc" title="YouTube video player"></iframe>
+        <h2 id="diferencies">Diferències introduïdes amb HTML5</h2>
+        <ul>
+            <li>HTML5 admet tant àudio com vídeo</li>
+            <li>HTML5 proporciona suport complet per executar JavaScript.</li>
+            <li>HTML5 soporta <a href="https://www.w3.org/Math/">mathML</a> i <a href="https://en.wikipedia.org/wiki/Scalable_Vector_Graphics">SVG</a>
+            </li>
+            <li>HTML5 admet nous tipus de controls de formulari, com ara data i hora, correu electrònic, número,
+                categoria, títol, URL, cerca, etc.</li>
+            <li>S'han introduït moltes etiquetes a HTML5. Algunes de les més importants són time, audio,
+                description, embed, fig, shape, footer, article, canvas, navy, output, section, source, track, video
+            </li>
+        </ul>
+        <h2 id="etiquetes">Etiquetes d’HTML5</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Etiqueta</th>
+                    <th>Descripció</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>&lt;a&gt;</td>
+                    <td>Defineix un hiperenllaç.</td>
+                </tr>
+                <tr>
+                    <td>&lt;abbr&gt;</td>
+                    <td>Defineix una forma abreujada d'una paraula o frase més llarga.</td>
+                </tr>
+                <tr>
+                    <td>&lt;address&gt;</td>
+                    <td>Especifica la informació de contacte de l'autor.</td>
+                </tr>
+                <tr>
+                    <td>&lt;area&gt;</td>
+                    <td>Defineix una àrea específica dins d'un mapa d'imatges.</td>
+                </tr>
+                <tr>
+                    <td>&lt;article&gt;</td>
+                    <td>Defineix un article.</td>
+                </tr>
+                <tr>
+                    <td>&lt;aside&gt;</td>
+                    <td>Defineix un contingut poc relacionat amb el contingut de la pàgina.</td>
+                </tr>
+                <tr>
+                    <td>&lt;audio&gt;</td>
+                    <td>Insereix un so o un flux d'àudio en un document HTML.</td>
+                </tr>
+                <tr>
+                    <td>&lt;b&gt;</td>
+                    <td>Mostra text en negreta.</td>
+                </tr>
+                <tr>
+                    <td>&lt;base&gt;</td>
+                    <td>Defineix l'URL base per a tots els URL relatius d'un document.</td>
+                </tr>
+                <tr>
+                    <td>&lt;bdi&gt;</td>
+                    <td>Representa text aïllat del seu entorn a efectes de format de text bidireccional.</td>
+                </tr>
+                <tr>
+                    <td>&lt;bdo&gt;</td>
+                    <td>Substitueix la direcció del text actual.</td>
+                </tr>
+                <tr>
+                    <td>&lt;blockquote&gt;</td>
+                    <td>Representa una secció que es cita d'una altra font.</td>
+                </tr>
+                <tr>
+                    <td>&lt;body&gt;</td>
+                    <td>Defineix el cos del document.</td>
+                </tr>
+                <tr>
+                    <td>&lt;br&gt;</td>
+                    <td>Es produeix un salt de línia única.</td>
+                </tr>
+                <tr>
+                    <td>&lt;button&gt;</td>
+                    <td>Crea un botó on es pot fer clic.</td>
+                </tr>
+                <tr>
+                    <td>&lt;canvas&gt;</td>
+                    <td>Defineix una regió del document que es pot utilitzar per dibuixar gràfics sobre la marxa
+                        mitjançant scripts (generalment JavaScript).</td>
+                </tr>
+                <tr>
+                    <td>&lt;caption&gt;</td>
+                    <td>Defineix el títol o el títol de la taula.</td>
+                </tr>
+                <tr>
+                    <td>&lt;cite&gt;</td>
+                    <td>Indica una cita o referència a una altra font.</td>
+                </tr>
+                <tr>
+                    <td>&lt;code&gt;</td>
+                    <td>Especifica el text com a codi d'ordinador.</td>
+                </tr>
+                <tr>
+                    <td>&lt;col&gt;</td>
+                    <td>Defineix valors d'atribut per a una o més columnes d'una taula.</td>
+                </tr>
+                <tr>
+                    <td>&lt;colgroup&gt;</td>
+                    <td>Especifica atributs per a diverses columnes d'una taula.</td>
+                </tr>
+                <tr>
+                    <td>&lt;data&gt;</td>
+                    <td>Enllaça un contingut amb una traducció llegible per màquina.</td>
+                </tr>
+                <tr>
+                    <td>&lt;datalist&gt;</td>
+                    <td>Representa un conjunt d'opcions predefinides per a un element (input).</td>
+                </tr>
+                <tr>
+                    <td>&lt;dd&gt;</td>
+                    <td>Especifica una descripció o un valor per al terme (dt) en una llista de descripcions (dl).
+                    </td>
+                </tr>
+                <tr>
+                    <td>&lt;del&gt;</td>
+                    <td>Representa el text que s'ha suprimit del document.</td>
+                </tr>
+                <tr>
+                    <td>&lt;details&gt;</td>
+                    <td>Representa un giny des del qual l'usuari pot obtenir informació addicional o controlar a la
+                        carta.</td>
+                </tr>
+                <tr>
+                    <td>&lt;dfn&gt;</td>
+                    <td>Especifica una definició.</td>
+                </tr>
+                <tr>
+                    <td>&lt;dialog&gt;</td>
+                    <td>Defineix un quadre de diàleg o una finestra secundària.</td>
+                </tr>
+                <tr>
+                    <td>&lt;div&gt;</td>
+                    <td>Especifica una divisió o una secció en un document.</td>
+                </tr>
+                <tr>
+                    <td>&lt;dl&gt;</td>
+                    <td>Defineix una llista de descripcions.</td>
+                </tr>
+                <tr>
+                    <td>&lt;dt&gt;</td>
+                    <td>Defineix un element en una llista de descripcions.</td>
+                </tr>
+                <tr>
+                    <td>&lt;em&gt;</td>
+                    <td>Defineix text emfatitzat.</td>
+                </tr>
+                <tr>
+                    <td>&lt;embed&gt;</td>
+                    <td>Insereix aplicacions externes, normalment contingut multimèdia com àudio o vídeo en un document
+                        HTML.</td>
+                </tr>
+                <tr>
+                    <td>&lt;fieldset&gt;</td>
+                    <td>Especifica un conjunt de camps de formulari relacionats.</td>
+                </tr>
+                <tr>
+                    <td>&lt;figcaption&gt;</td>
+                    <td>Defineix un títol o una llegenda per a una figura.</td>
+                </tr>
+                <tr>
+                    <td>&lt;figure&gt;</td>
+                    <td>Representa una figura il·lustrada com a part del document.</td>
+                </tr>
+                <tr>
+                    <td>&lt;footer&gt;</td>
+                    <td>Representa el peu de pàgina d'un document o d'una secció.</td>
+                </tr>
+                <tr>
+                    <td>&lt;form&gt;</td>
+                    <td>Defineix un formulari HTML per a l'entrada de l'usuari.</td>
+                </tr>
+                <tr>
+                    <td>&lt;h1&gt; to &lt;h6&gt;</td>
+                    <td>Defineix encapçalaments HTML.</td>
+                </tr>
+                <tr>
+                    <td>&lt;head&gt;</td>
+                    <td>Defineix la part del capçal del document que conté informació sobre el document, com ara el
+                        títol.</td>
+                </tr>
+                <tr>
+                    <td>&lt;header&gt;</td>
+                    <td>Representa la capçalera d'un document o d'una secció.</td>
+                </tr>
+                <tr>
+                    <td>&lt;hgroup&gt;</td>
+                    <td>Defineix un grup d'encapçalaments.</td>
+                </tr>
+                <tr>
+                    <td>&lt;hr&gt;</td>
+                    <td>Produeix una línia horitzontal.</td>
+                </tr>
+                <tr>
+                    <td>&lt;html&gt;</td>
+                    <td>Defineix l'arrel d'un document HTML.</td>
+                </tr>
+                <tr>
+                    <td>&lt;i&gt;</td>
+                    <td>Mostra text en cursiva.</td>
+                </tr>
+                <tr>
+                    <td>&lt;iframe&gt;</td>
+                    <td>Mostra un URL en un marc en línia.</td>
+                </tr>
+                <tr>
+                    <td>&lt;img&gt;</td>
+                    <td>Representa una imatge.</td>
+                </tr>
+                <tr>
+                    <td>&lt;input&gt;</td>
+                    <td>Defineix un control d’entrada.</td>
+                </tr>
+                <tr>
+                    <td>&lt;ins&gt;</td>
+                    <td>Defineix un bloc de text que s'ha inserit en un document.</td>
+                </tr>
+                <tr>
+                    <td>&lt;kbd&gt;</td>
+                    <td>Especifica text com a entrada de teclat.</td>
+                </tr>
+                <tr>
+                    <td>&lt;keygen&gt;</td>
+                    <td>Representa un control per generar un parell de claus públic-privat.</td>
+                </tr>
+                <tr>
+                    <td>&lt;label&gt;</td>
+                    <td>Defineix una etiqueta per a un control (input).</td>
+                </tr>
+                <tr>
+                    <td>&lt;legend&gt;</td>
+                    <td>Defineix un títol per a un element (fieldset).</td>
+                </tr>
+                <tr>
+                    <td>&lt;li&gt;</td>
+                    <td>Defineix un element de llista.</td>
+                </tr>
+                <tr>
+                    <td>&lt;link&gt;</td>
+                    <td>Defineix la relació entre el document actual i un recurs extern.</td>
+                </tr>
+                <tr>
+                    <td>&lt;main&gt;</td>
+                    <td>Representa el contingut principal o dominant del document.</td>
+                </tr>
+                <tr>
+                    <td>&lt;map&gt;</td>
+                    <td>Defineix un mapa d’imatges del costat del client.</td>
+                </tr>
+                <tr>
+                    <td>&lt;mark&gt;</td>
+                    <td>Representa el text ressaltat a efectes de referència.</td>
+                </tr>
+                <tr>
+                    <td>&lt;menu&gt;</td>
+                    <td>Representeu una llista d'ordres.</td>
+                </tr>
+                <tr>
+                    <td>&lt;menuitem&gt;</td>
+                    <td>Defineix una llista (o menuitem) d'ordres que un usuari pot realitzar.</td>
+                </tr>
+                <tr>
+                    <td>&lt;meta&gt;</td>
+                    <td>Proporciona metadades estructurades sobre el contingut del document.</td>
+                </tr>
+                <tr>
+                    <td>&lt;meter&gt;</td>
+                    <td>Representa una mesura escalar dins d’un interval conegut.</td>
+                </tr>
+                <tr>
+                    <td>&lt;nav&gt;</td>
+                    <td>Defineix una secció d’enllaços de navegació.</td>
+                </tr>
+                <tr>
+                    <td>&lt;noscript&gt;</td>
+                    <td>Defineix contingut alternatiu per mostrar quan el navegador no admet scripts.</td>
+                </tr>
+                <tr>
+                    <td>&lt;object&gt;</td>
+                    <td>Defineix un objecte incrustat.</td>
+                </tr>
+                <tr>
+                    <td>&lt;ol&gt;</td>
+                    <td>Defineix una llista ordenada.</td>
+                </tr>
+                <tr>
+                    <td>&lt;optgroup&gt;</td>
+                    <td>Defineix un grup d'opcions relacionades en una llista de selecció.</td>
+                </tr>
+                <tr>
+                    <td>&lt;option&gt;</td>
+                    <td>Defineix una opció en una llista de selecció.</td>
+                </tr>
+                <tr>
+                    <td>&lt;output&gt;</td>
+                    <td>Representa el resultat d'un càlcul.</td>
+                </tr>
+                <tr>
+                    <td>&lt;p&gt;</td>
+                    <td>Defineix el paràgraf.</td>
+                </tr>
+                <tr>
+                    <td>&lt;param&gt;</td>
+                    <td>Defineix un paràmetre per a un element objecte o applet.</td>
+                </tr>
+                <tr>
+                    <td>&lt;picture&gt;</td>
+                    <td>Defineix un contenidor per a diverses fonts d'imatges.</td>
+                </tr>
+                <tr>
+                    <td>&lt;pre&gt;</td>
+                    <td>Defineix un bloc de text preformatat.</td>
+                </tr>
+                <tr>
+                    <td>&lt;progress&gt;</td>
+                    <td>Representa el progrés de finalització d'una tasca.</td>
+                </tr>
+                <tr>
+                    <td>&lt;q&gt;</td>
+                    <td>Defineix una cita curta en línia.</td>
+                </tr>
+                <tr>
+                    <td>&lt;rp&gt;</td>
+                    <td>Proporciona un parèntesi alternatiu als navegadors que no admeten anotacions de ruby.</td>
+                </tr>
+                <tr>
+                    <td>&lt;rt&gt;</td>
+                    <td>Defineix la pronunciació del caràcter presentat en anotacions de ruby.</td>
+                </tr>
+                <tr>
+                    <td>&lt;ruby&gt;</td>
+                    <td>Representa una anotació de ruby.</td>
+                </tr>
+                <tr>
+                    <td>&lt;s&gt;</td>
+                    <td>Representa continguts que ja no són precisos o que ja no són rellevants.</td>
+                </tr>
+                <tr>
+                    <td>&lt;samp&gt;</td>
+                    <td>Especifica el text com a sortida de mostra d’un programa d’ordinador.</td>
+                </tr>
+                <tr>
+                    <td>&lt;script&gt;</td>
+                    <td>Col·loca l'script al document per al processament del client.</td>
+                </tr>
+                <tr>
+                    <td>&lt;section&gt;</td>
+                    <td>Defineix una secció d'un document, com ara capçalera, peu de pàgina, etc.</td>
+                </tr>
+                <tr>
+                    <td>&lt;select&gt;</td>
+                    <td>Defineix una llista de selecció dins d'un formulari.</td>
+                </tr>
+                <tr>
+                    <td>&lt;small&gt;</td>
+                    <td>Mostra el text amb una mida més petita.</td>
+                </tr>
+                <tr>
+                    <td>&lt;source&gt;</td>
+                    <td>Defineix recursos multimèdia alternatius per a elements multimèdia com (audio) o (video).</td>
+                </tr>
+                <tr>
+                    <td>&lt;span&gt;</td>
+                    <td>Defineix una secció sense estil en línia en un document.</td>
+                </tr>
+                <tr>
+                    <td>&lt;strong&gt;</td>
+                    <td>Indica un text fortament emfatitzat.</td>
+                </tr>
+                <tr>
+                    <td>&lt;style&gt;</td>
+                    <td>Insereix informació d’estil (normalment CSS) al capçal d’un document.</td>
+                </tr>
+                <tr>
+                    <td>&lt;sub&gt;</td>
+                    <td>Defineix text amb subscripció.</td>
+                </tr>
+                <tr>
+                    <td>&lt;summary&gt;</td>
+                    <td>Defineix un resum per a l'element (details).</td>
+                </tr>
+                <tr>
+                    <td>&lt;sup&gt;</td>
+                    <td>Defineix text superíndex.</td>
+                </tr>
+                <tr>
+                    <td>&lt;svg&gt;</td>
+                    <td>Insereix contingut SVG (gràfics vectorials escalables) en un document HTML.</td>
+                </tr>
+                <tr>
+                    <td>&lt;table&gt;</td>
+                    <td>Defineix la taula de dades.</td>
+                </tr>
+                <tr>
+                    <td>&lt;tbody&gt;</td>
+                    <td>Agrupa un conjunt de files que defineixen el cos principal de les dades de la taula.</td>
+                </tr>
+                <tr>
+                    <td>&lt;td&gt;</td>
+                    <td>Defineix una cel·la en una taula.</td>
+                </tr>
+                <tr>
+                    <td>&lt;template&gt;</td>
+                    <td>Defineix els fragments d'HTML que s'han d'amagar quan es carrega la pàgina, però que es poden
+                        clonar i inserir al document mitjançant JavaScript.</td>
+                </tr>
+                <tr>
+                    <td>&lt;textarea&gt;</td>
+                    <td>Defineix un control d'entrada de text de diverses línies (textarea).</td>
+                </tr>
+                <tr>
+                    <td>&lt;tfoot&gt;</td>
+                    <td>Agrupa un conjunt de files que resumeixen les columnes de la taula.</td>
+                </tr>
+                <tr>
+                    <td>&lt;th&gt;</td>
+                    <td>Defineix una cel·la de capçalera en una taula.</td>
+                </tr>
+                <tr>
+                    <td>&lt;thead&gt;</td>
+                    <td>Agrupa un conjunt de files que descriu les etiquetes de columna d'una taula.</td>
+                </tr>
+                <tr>
+                    <td>&lt;time&gt;</td>
+                    <td>Representa una hora i/o una data.</td>
+                </tr>
+                <tr>
+                    <td>&lt;title&gt;</td>
+                    <td>Defineix un títol per al document</td>
+                </tr>
+                <tr>
+                    <td>&lt;tr&gt;</td>
+                    <td>Defineix una fila de cel·les d'una taula.</td>
+                </tr>
+                <tr>
+                    <td>&lt;track&gt;</td>
+                    <td>Defineix pistes de text per a elements multimèdia com (audio) o (video).</td>
+                </tr>
+                <tr>
+                    <td>&lt;u&gt;</td>
+                    <td>Mostra text amb un subratllat.</td>
+                </tr>
+                <tr>
+                    <td>&lt;ul&gt;</td>
+                    <td>Defineix una llista no ordenada.</td>
+                </tr>
+                <tr>
+                    <td>&lt;var&gt;</td>
+                    <td>Defineix una variable.</td>
+                </tr>
+                <tr>
+                    <td>&lt;video&gt;</td>
+                    <td>Insereix contingut de vídeo en un document HTML.</td>
+                </tr>
+                <tr>
+                    <td>&lt;wbr&gt;</td>
+                    <td>Representa una oportunitat de salt de línia.</td>
+                </tr>
+            </tbody>
+        </table>
+    </article>
+    <footer>
+        <p>Exàmen fet per <a href="mailto:alfonso.dasilva@insjoaquimmir.cat">Alfonso da Silva</a></p>
+    </footer>
+</body>
+
+</html>
