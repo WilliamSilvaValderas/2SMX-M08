@@ -20,9 +20,9 @@ CSS proporciona diverses propietats **font**, que afecten directament la represe
 
 Els tipus de lletra s'agrupen en 5 famílies **genèriques**:
 
-* Els tipus de lletra `serif` tenen petites línies adjuntes al final de cada caràcter
+* `serif` [amb petites decoracions adjuntes al final de cada caràcter](https://www.freecodecamp.org/news/html-font-css-font-family-example-serif-and-sans-serif-characters/#theseriffonttype)
 * `sans-serif`
-* `monoespai`
+* `monoespace`
 * `cursive` (no s'utilitza mai)
 * `fantasy` (no s'utilitza mai)
 
@@ -55,7 +55,7 @@ Arial és una opció segura, perquè s'instal·la a tots els ordinadors Windows 
 * Arial Black
 * Comic Sans MS
 * Courier Nou
-* Geòrgia
+* Georgia
 * Impacte
 * Times New Roman
 * Trebuchet MS
@@ -71,7 +71,7 @@ Tot i que utilitzar _qualsevol_ d'aquests valors per a la propietat `font-family
 body{ font-family: Arial, Verdana, sans-serif;}
 ```
 
-En definir **valors múltiples** per a la "família de fonts", el navegador buscarà el primer valor `Arial` i l'utilitzarà. Si no està disponible, utilitzarà el següent `Verdana`. Finalment, si aquest tampoc està disponible, utilitzarà el tipus de lletra `sans-serif` predeterminat del navegador.
+En definir **valors múltiples** per a `font-family`, el navegador buscarà el primer valor `Arial` i l'utilitzarà. Si no està disponible, utilitzarà el següent `Verdana`. Finalment, si aquest tampoc està disponible, utilitzarà el tipus de lletra `sans-serif` predeterminat del navegador.
 
 ---
 
@@ -79,7 +79,7 @@ En definir **valors múltiples** per a la "família de fonts", el navegador busc
 
 Com que els dissenyadors volen utilitzar tipus de lletra més originals, però encara volen que la seva pàgina web sembli exactament igual a l'ordinador de qualsevol persona, és possible **incloure una font** en una pàgina web. D'aquesta manera, s'asseguren que el tipus de lletra estigui disponible encara que no estigui present a l'ordinador de l'usuari, simplement perquè el lloc web proporciona el tipus de lletra.
 
-Google, per exemple, proporciona fonts que pots incloure a la teva web: https://www.w3schools.com/howto/howto_google_fonts.asp
+Per exemple [Google proporciona fonts que pots incloure a la teva web](https://www.w3schools.com/howto/howto_google_fonts.asp).
 
 ---
 
@@ -189,7 +189,7 @@ L'element `p` tindrà una alçada de línia de `27px` (18 * 1'5 = 27)
 
 ## font
 
-En CSS, algunes propietats es poden **agrupar** sota una altra propietat, per estalviar temps i espai. La propietat `font` es reagrupa (en aquest ordre particular):
+En CSS, algunes propietats es poden **agrupar** sota una altra propietat, per estalviar temps i espai. La propietat `font` agrupa, en aquest ordre concret, les propietats:
 
 * `font-style`
 * `font-variant`
@@ -201,6 +201,7 @@ En CSS, algunes propietats es poden **agrupar** sota una altra propietat, per es
 Així, podeu definir 6 propietats mitjançant una única:
 
 ```css
+/* Observeu la / entre font-size i line-height */
 body{ font: italic small-caps bold 16px/1.5 Arial, sans-serif;}
 ```
 
@@ -216,7 +217,7 @@ body{ text-align: left;}
 
 Els valors més utilitzats són `left`, `right`, `center` i `justify`.
 
-El valor per defecte de `text-align` és `start`. Bàsicament, `inici` pot ser `left` o `right`, depenent de la **direcció** establerta al document HTML. La propietat CSS `direction` pot ser `ltr` (d'esquerra a dreta) o `rtl` (de dreta a esquerra).
+El valor per defecte de `text-align` és `start`. Bàsicament, `start` pot ser `left` o `right`, depenent de la **direcció** establerta al document HTML. La propietat CSS `direction` pot ser `ltr` (d'esquerra a dreta) o `rtl` (de dreta a esquerra).
 
 ---
 
@@ -224,7 +225,7 @@ El valor per defecte de `text-align` és `start`. Bàsicament, `inici` pot ser `
 
 La propietat `text-decoration` s'utilitza per afegir una línia al vostre text.
 
-Valor per defecte: "cap".
+Valor per defecte: `none`.
 
 ```css
 .deleted{ text-decoration: line-through;}
