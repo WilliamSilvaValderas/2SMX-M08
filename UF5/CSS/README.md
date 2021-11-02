@@ -7,6 +7,7 @@
 * [00. Introducció al CSS](./teoria/00_Introduccio.pdf)
 * [01. Selectors](./teoria/01_Selectors.pdf)
 * [02. Colors i Mides](./teoria/02_Colors_i_Mides.pdf)
+* [03. Text](./teoria/03_Text.pdf)
 
 ### Extensions
 
