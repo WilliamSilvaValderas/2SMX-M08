@@ -241,4 +241,4 @@ https://www.w3schools.com/cssref/css_units.asp
 
 Recomanaria **píxels** per començar: com que són valors absoluts, no es veuen afectats pel context de l'element. Són senzills, permeten establir la mida del text, dimensions de la imatge, amplada de la vora, coordenades de posició...
 
-Els valors **Percentatge** i **em** es poden utilitzar al costat dels píxels, especialment per a mides de text relatives.
+Els valors **percentatge** i **em** es poden utilitzar al costat dels píxels, especialment per a mides de text relatives.

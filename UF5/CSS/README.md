@@ -9,10 +9,11 @@
 * [02. Colors i Mides](./teoria/02_Colors_i_Mides.pdf)
 * [03. Text](./teoria/03_Text.pdf)
 
-### Extensions
+### Extensions i paràmetres de Visual Code
 
 * Live Server
 * CSS Peek
+* CSS Formatter
 * Settings => "editor.linkedEditing": true
 * Settings => html.format.wrapLineLength i posseu l'amplada que vulgueu
 

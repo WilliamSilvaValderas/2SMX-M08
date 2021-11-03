@@ -55,7 +55,7 @@ Podeu utilitzar una etiqueta `<style>` al `<head>` del vostre document HTML:
 Podeu escriure el vostre CSS en un fitxer independent amb una extensió `.css` i, a continuació, enllaçar-lo al vostre HTML mitjançant l'etiqueta HTML `<link>`.
 
 ```css
-p{ color: vermell;}
+p{ color: red;}
 ```
 
 ```html
@@ -117,7 +117,7 @@ Suposem que voleu canviar el color de tots els vostres títols `h2`.
 <h2>Alguna cosa</h2>
 ```
 
-Centreu-vos en el **nom de l'etiqueta** (i oblideu-vos dels claudàtors angulars <> i del text). En el nostre cas, només queda _"h2"_. Hi ha una relació directa entre el nom de l'etiqueta i el selector.
+Centreu-vos en el **nom de l'etiqueta** (i oblideu-vos dels claudàtors angulars <> i del text). En el nostre cas, només queda _h2_. Hi ha una relació directa entre el nom de l'etiqueta i el selector.
 
 Utilitzem-ho al nostre CSS com a **selector**, i apliquem un estil:
 
@@ -151,7 +151,7 @@ Ara ens agradaria posar un estil idèntic també als títols `<h1>`. Podríem co
 
 ```css
 h1,
-h3 { 
+h2 { 
     background-color: lightgreen;
     color: darkgreen;
 }

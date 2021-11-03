@@ -185,7 +185,7 @@ a:hover {
 
 ## Herència
 
-Suposem que volem canviar el **color del text** d'una pàgina web. Seria molt pessat especificar un color per a _cada__ element HTML:
+Suposem que volem canviar el **color del text** d'una pàgina web. Seria molt pessat especificar un color per a _cada_ element HTML:
 
 ```css
 p,

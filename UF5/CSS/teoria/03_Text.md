@@ -125,7 +125,7 @@ Depenent de la `font-family` utilitzada, hi ha una gamma de pesos de lletra disp
 h2{ font-weight: 700; }/* bold */
 ```
 
-Molt poques fonts proporcionen els 9 pesos. El [fonts Exo](https://www.google.com/fonts/specimen/Exo) és un d'ells. La majoria en trobareu 400 (normal) i 700 (negreta), i de vegades 300 (clar) i 500 (mitjana).
+Molt poques fonts proporcionen els 9 pesos. La [font Exo](https://www.google.com/fonts/specimen/Exo) és una d'elles. La majoria en trobareu 400 (normal) i 700 (negreta), i de vegades 300 (clar) i 500 (mitjana).
 
 ---
 
@@ -147,12 +147,12 @@ No és una propietat molt utilitzada.
 
 La propietat `line-height`, quan s'aplica a l'element de nivell de bloc, defineix, com el seu nom suggereix literalment, l'**altura de cada línia**.
 
-La propietat "line-height" utilitza les unitats següents:
+La propietat `line-height` utilitza les unitats següents:
 
 * `px`
 *'em'
 * `%`
-* nombres sense unitat, com "1,5".
+* nombres sense unitat, com `1,5`.
 
 Els valors sense unitats actuen bàsicament com a percentatges. Per tant, `150%` és igual a `1,5`. Aquest últim és més compacte i llegible.
 
@@ -160,7 +160,7 @@ Els valors sense unitats actuen bàsicament com a percentatges. Per tant, `150%`
 
 ## line-height (II)
 
-El propòsit de l'"alçada de línia" és definir un interlineat llegible per al vostre text. Com que la llegibilitat depèn de la mida del text, es recomana utilitzar un valor **dinàmic** relatiu a la mida del text. Per tant, no es recomana utilitzar `px` perquè defineix un valor **estàtic**.
+El propòsit de l'alçada de línia és definir un interlineat llegible per al vostre text. Com que la llegibilitat depèn de la mida del text, es recomana utilitzar un valor **dinàmic** relatiu a la mida del text. Per tant, no es recomana utilitzar `px` perquè defineix un valor **estàtic**.
 
 El mètode recomanat és **números sense unitat**:
 
