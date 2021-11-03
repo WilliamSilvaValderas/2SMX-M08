@@ -14,6 +14,7 @@
 * Live Server
 * CSS Peek
 * CSS Formatter
+* Live Share
 * Settings => "editor.linkedEditing": true
 * Settings => html.format.wrapLineLength i posseu l'amplada que vulgueu
 
