@@ -257,7 +257,7 @@ Com a la propietat `font-size`, podeu utilitzar valors `px`, `em` o fins i tot `
 
 En CSS, podeu afegir ombra a un text, perquè sigui més elegant o més llegible.
 
-Tu defineixes:
+Es defineix:
 
 * `x` el desplaçament horitzontal
 * `y` el desplaçament vertical
