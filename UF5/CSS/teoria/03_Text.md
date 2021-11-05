@@ -88,7 +88,7 @@ Per exemple [Google proporciona fonts que pots incloure a la teva web](https://w
 Ja hem tractat les unitats de mida CSS que s'utilitzen per definir la mida de la lletra, entre altres coses.
 
 ```css
-p{ font-size 16px;}
+p{ font-size: 16px;}
 ```
 
 Tingueu en compte que establir una mida de lletra de `16px` no farà que cada lletra sigui `16px` d'alçada. La mida _real_ de cada lletra depèn de la família de tipus de lletra utilitzada.
@@ -150,7 +150,7 @@ La propietat `line-height`, quan s'aplica a l'element de nivell de bloc, definei
 La propietat `line-height` utilitza les unitats següents:
 
 * `px`
-*'em'
+* 'em'
 * `%`
 * nombres sense unitat, com `1,5`.
 
