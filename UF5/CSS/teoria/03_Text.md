@@ -269,3 +269,9 @@ h1{ text-shadow: 0 2px 5px rgba(0,0,0,0.5);}
 ```
 
 Només calen els valors `x` i `y`. El "desenfocament" per defecte és `0` (zero), mentre que el `color` és el color del text per defecte.
+
+---
+
+## text-transform
+
+TODO
