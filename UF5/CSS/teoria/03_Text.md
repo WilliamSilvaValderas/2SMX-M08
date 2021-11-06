@@ -40,7 +40,7 @@ El problema amb l'ús de noms de tipus de lletra genèrics és que el disseny de
 Com que probablement voleu que la vostra pàgina web tingui el mateix aspecte a l'ordinador de qualsevol persona, voldreu definir un tipus de lletra **específic** per utilitzar-lo. Per fer-ho, només cal que utilitzeu el **nom** del tipus de lletra.
 
 ```css
-body{ font-family: Arial;}
+body{ font-family: 'Arial';}
 ```
 
 La vostra pàgina web utilitzarà Arial **sempre que estigui instal·lada a l'ordinador de l'usuari**.
@@ -49,17 +49,17 @@ La vostra pàgina web utilitzarà Arial **sempre que estigui instal·lada a l'or
 
 ## Tipus de lletra segurs per a la web
 
-Arial és una opció segura, perquè s'instal·la a tots els ordinadors Windows i Mac, i a la majoria de sistemes Linux. És per això que Arial es considera un tipus de lletra **segur per a la web**. N'hi ha 9 tipus de lletra segurs per a la web:
+Arial és una opció segura, perquè s'instal·la a tots els ordinadors Windows i Mac, i a la majoria de sistemes Linux. És per això que Arial es considera un tipus de lletra **segur per a la web**. N'hi ha aquests tipus de lletra segurs per a la web:
 
-* Arial
-* Arial Black
-* Comic Sans MS
-* Courier Nou
-* Georgia
-* Impacte
-* Times New Roman
-* Trebuchet MS
-* Verdana
+* Arial (sans-serif)
+* Verdana (sans-serif)
+* Helvetica (sans-serif)
+* Tahoma (sans-serif)
+* Trebuchet MS (sans-serif)
+* Times New Roman (serif)
+* Georgia (serif)
+* Garamond (serif)
+* Courier New (monospace)
 
 ---
 
@@ -68,10 +68,10 @@ Arial és una opció segura, perquè s'instal·la a tots els ordinadors Windows 
 Tot i que utilitzar _qualsevol_ d'aquests valors per a la propietat `font-family` és una aposta segura, podeu definir valors **de reserva** escrivint una **llista de famílies de tipus de lletra**:
 
 ```css
-body{ font-family: Arial, Verdana, sans-serif;}
+body{ font-family: Georgia, 'Times New Roman', serif;}
 ```
 
-En definir **valors múltiples** per a `font-family`, el navegador buscarà el primer valor `Arial` i l'utilitzarà. Si no està disponible, utilitzarà el següent `Verdana`. Finalment, si aquest tampoc està disponible, utilitzarà el tipus de lletra `sans-serif` predeterminat del navegador.
+En definir **valors múltiples** per a `font-family`, el navegador buscarà el primer valor `Georgia` i l'utilitzarà. Si no està disponible, utilitzarà el següent `Times New Roman`. Finalment, si aquest tampoc està disponible, utilitzarà el tipus de lletra `serif` predeterminat del navegador.
 
 ---
 

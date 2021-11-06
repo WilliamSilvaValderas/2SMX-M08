@@ -95,7 +95,7 @@ Hi ha moltes propietats CSS que requereixen **unitats de mida**:
 
 * `font-size` defineix la mida del text
 * `border-width` defineix el pes de les vores dels elements
-* `margi` defineix l'espaiat entre elements
+* `margin` defineix l'espaiat entre elements
 * `left/right/top/bottom` permet posicionar i moure elements
 
 Les unitats més utilitzades són:
@@ -169,7 +169,7 @@ La unitat `em` és interessant ja que definiu les mides de lletra dels elements 
 ```css
 body{ font-size: 16px;}
 h1{ font-size: 2em;} /* = 32px */
-h2{ mida del tipus de lletra: 1,5 em;} /* = 24 píxels */
+h2{ font-size: 1,5 em;} /* = 24 píxels */
 footer{ font-size: 0.75em;} /* = 12px */
 ```
 

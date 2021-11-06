@@ -1,395 +1,5 @@
----
-maquetació: capítol
-títol: "CSS <strong>Model de caixa</strong>"
-subtítol: "Com es fan <strong>rectangles</strong>"
-secció: css
----
 
-De manera predeterminada, cada element HTML es representa al navegador com un **rectangle**. Les dimensions d'aquest rectangle són **dinàmiques**: varien segons el _contingut_ d'aquest element. Podeu considerar aquests rectangles com a **fluids**, alterant la seva forma per adaptar-se al contingut.
 
-Això es deu al fet que una pàgina web és un element **viu**: només cal canviar la mida de la finestra del navegador per veure com la majoria dels elements s'adaptaran automàticament per adaptar-se a l'espai disponible.
-
-Aquest és el comportament predeterminat d'una pàgina web. Però com que el disseny d'una pàgina web sovint requereix **arreglar** elements al seu lloc, amb dimensions específiques, CSS ens permet alterar o fins i tot cancel·lar aquest comportament fluid.
-
-Un element a nivell de bloc, com un paràgraf, ocuparà **horitzontalment** tot l'espai que pugui, que per defecte és l'amplada del vostre navegador. Verticalment, el paràgraf adaptarà la seva alçada a la longitud del seu contingut.
-
-Es tenen en compte molts paràmetres: la longitud del contingut, el tipus de lletra utilitzat, la seva mida, el seu espaiat, el farciment de l'element, les vores, si és flotant, el seu posicionament...
----
-maquetació: post
-títol: "CSS <strong>fons</strong>"
-subtítol: "Com s'<strong>omple</strong> el teu rectangle"
-secció: css
----
-
-El fons d'un element HTML és el que apareix _darrere_ del text. Tot i que CSS permet aplicar un fons a qualsevol tipus d'element HTML, s'utilitza principalment en elements a nivell de bloc.
-
-Els fons només s'apliquen a l'element objectiu. Però tenint en compte que la majoria d'elements HTML tenen un fons transparent, aplicar un fons al "cos" semblarà que s'aplica a tots els elements.
-
-### color de fons
-
-Valor per defecte: "transparent".
-Elements heretats pels fills: no.
-
-Com ja hem tractat les diferents maneres de definir un [color en CSS](/css-color-units.html), aplicar un color de fons és senzill:
-
-```css
-cos{ fons: #f2eee9;}
-```
-
-Tot l'element s'omplirà amb un color de fons **llau**. Tingueu en compte que heu de triar sempre un color de text adequat per mantenir el vostre contingut fàcil de llegir.
-
-### imatge de fons
-
-Com que els colors llisos no solen ser suficients, CSS permet aplicar **imatges** com a fons per als elements.
-
-L'aplicació d'una imatge de fons només requereix especificar la seva URL:
-
-```css
-cos{ imatge de fons: url(images/diagonal-pattern.png);}
-```
-
-El comportament de la imatge (com es repeteix, on es col·loca, com es mida) està definit per altres propietats de fons. La "imatge de fons" només defineix _quina_ imatge utilitzar.
-
-Tingueu en compte que l'element HTML no té en compte les dimensions de la seva imatge de fons. Fins i tot si la imatge és més gran que l'element al qual s'aplica, l'element **no canviarà la mida** per adaptar-se a la imatge, ja que la imatge és purament decorativa i està aquí per donar suport a l'element.
-
-### La diferència entre les imatges HTML `<img>` i les imatges de fons CSS
-
-L'element HTML `<img>` és per a imatges que formen part del **contingut**, mentre que les imatges de fons CSS són purament **decoratives**.
-
-El logotip d'una empresa, la miniatura d'una galeria, la imatge d'un producte... Tots es consideren **contingut** i haurien d'utilitzar l'element HTML `<img>`.
-
-Un patró en diagonal, un paisatge preciós, una icona de carro... Es poden considerar **decoratius**, ja que _suporten_ el contingut però no en formen _part_. Si desapareguessin, la pàgina web encara tindria sentit.
-
-Pel que fa a moltes opcions duals, la frontera entre contingut i estil és borrosa. Algunes tècniques visuals són més fàcils d'aconseguir amb fons CSS. Pregunteu-vos si la imatge que utilitzeu és essencial per a la pàgina. Si és així, utilitzeu l'element `<img>`.
-
-#### Gradients
-
-CSS també permet definir **gradients de color** com a imatges de fons, en 2 formes diferents:
-
-* `degradat lineal` per a gradients en una sola direcció, en forma rectangular
-* `gradient radial` per a gradients en totes direccions, en forma circular
-
-Ho cobrim en un capítol 8.3: [gradients CSS](/css-gradients.html). L'únic que cal saber de moment és que els degradats de fons es consideren **imatges de fons**:
-
-```css
-cos{ imatge de fons: degradat lineal (blanc, gris);}
-```
-
-### posició de fons
-
-Per defecte, una imatge de fons es repetirà indefinidament. Podeu especificar la seva **posició original**, escollint un valor `x` horitzontal i un valor `y` vertical.
-
-Per a cada coordenada, podeu utilitzar:
-
-* valors de píxels `px`
-* percentatges, relatius a les dimensions de l'element HTML
-* paraules clau com "centre", "esquerra", "inferior"...
-
-```css
-cos{ posició de fons: part inferior dreta;}
-```
-
-Podeu barrejar diferents unitats de coordenades:
-
-```css
-cos{ posició de fons: centre 20px;}
-```
-
-### repetició de fons
-
-Per defecte, una imatge de fons es repetirà indefinidament. Podeu triar que es repeteixi només horitzontalment, només verticalment o no.
-
-```css
-body{ background-repeat: repeat-x;} /* Només horitzontalment */
-body{ background-repeat: repeat-y;} /* Només verticalment */
-body{ background-repeat: no-repeat;} /* La imatge de fons només apareixerà una vegada */
-```
----
-maquetació: post
-títol: "CSS <strong>visualització</strong>"
-subtítol: "Canviar el <strong>tipus</strong> d'un element HTML"
-secció: css
----
-
-Hem vist com hi ha principalment [2 tipus d'elements HTML](/html-block-inline.html): elements **block-level** i **inline**. També hem esmentat algunes alternatives, com ara **list-item** o **table-cell**.
-
-La propietat `display` permet canviar el _tipus_ de l'element HTML. De manera predeterminada, un paràgraf `<p>` (un element **nivell de bloc**) tindrà un valor de `visualització' predeterminat de `block`, però es pot representar com a **inline**:
-
-```css
-p{ visualització: en línia;}
-```
-
-### Per què no utilitzar un element HTML en línia, com ara `<span>` llavors?
-
-Perquè trieu un element HTML pel seu **significat**, no per la seva representació. Si hem decidit que un paràgraf és el que millor s'adapta al nostre contingut, no hem de canviar l'etiqueta _només amb finalitats d'estil_. CSS és aquí per tenir cura de l'estil.
-
-En resum, `display` permet alterar el **tipus** d'un element _sense_ canviar-ne el **significat**.
-
-Cada opció de "visualització" té comportaments de representació específics:
-
-* `block` ocuparà tota l'amplada disponible
-* `inline` actuarà com a text senzill
-* `inline-block` és, com el seu nom indica, un compost de bloc i comportament en línia, una opció _"el millor dels dos mons"_
-* `list-item` és similar a `block` ja que ocupa tota l'amplada disponible, però mostra una vinyeta addicional
-* "taula", "fila de taula" i "cel·la de taula" tenen un comportament molt específic, encara que inesperat, que permet dissenys més interessants
-
-### visualització: bloqueig
-
-Això convertirà qualsevol element en un element **block**.
-
-Aquesta tècnica s'utilitza sovint als **enllaços** per augmentar la seva zona de clic, que es pot avaluar fàcilment establint un color de fons.
-
-```css
-.menu a{ fons: vermell; color: blanc;}
-```
-
-```html
-<ul class="menu">
-  <li>
-    <a>Inici</a>
-  </li>
-  <li>
-    <a>Funcions</a>
-  </li>
-  <li>
-    <a>Preus</a>
-  </li>
-  <li>
-    <a>Quant a</a>
-  </li>
-</ul>
-```
-
-<div class="resultat">
-  <ul>
-    <li>
-      <a style="background: red; color: white;">Inici</a>
-    </li>
-    <li>
-      <a style="background: red; color: white;">Funcions</a>
-    </li>
-    <li>
-      <a style="background: red; color: white;">Preus</a>
-    </li>
-    <li>
-      <a style="background: red; color: white;">Quant a</a>
-    </li>
-  </ul>
-</div>
-
-Si convertim aquests enllaços en **blocs**, augmentarem la seva àrea objectiu:
-
-```css
-.menu a{ fons: vermell; color: blanc; mostrar: bloc;}
-```
-
-<div class="resultat">
-  <ul>
-    <li>
-      <a style="background: red; color: white; display: block;">Inici</a>
-    </li>
-    <li>
-      <a style="background: red; color: white; display: block;">Funcions</a>
-    </li>
-    <li>
-      <a style="background: red; color: white; display: block;">Preus</a>
-    </li>
-    <li>
-      <a style="background: red; color: white; display: block;">Quant a</a>
-    </li>
-  </ul>
-</div>
-
-
-### pantalla: en línia
-
-Això converteix qualsevol element en elements **inline**, com si només fossin un simple **text**.
-
-Sovint s'utilitza per crear **navegacions horitzontals**, on els **elements de llista** són útils semànticament però no visualment.
-
-```html
-<ul class="menu">
-  <li>
-    <a>Inici</a>
-  </li>
-  <li>
-    <a>Funcions</a>
-  </li>
-  <li>
-    <a>Preus</a>
-  </li>
-  <li>
-    <a>Quant a</a>
-  </li>
-</ul>
-```
-
-<div class="resultat">
-  <ul>
-    <li>
-      <a>Inici</a>
-    </li>
-    <li>
-      <a>Funcions</a>
-    </li>
-    <li>
-      <a>Preus</a>
-    </li>
-    <li>
-      <a>Quant a</a>
-    </li>
-  </ul>
-</div>
-
-```css
-.menu li{ mostrar: en línia;}
-```
-
-<div class="resultat">
-  <ul>
-    <li style="display: inline;">
-      <a>Inici</a>
-    </li>
-    <li style="display: inline;">
-      <a>Funcions</a>
-    </li>
-    <li style="display: inline;">
-      <a>Preus</a>
-    </li>
-    <li style="display: inline;">
-      <a>Quant a</a>
-    </li>
-  </ul>
-</div>
-
-### visualització: element de llista
-
-Els únics elements HTML que es mostren com a "element de llista" són (no és sorprenent) els **elements de la llista** `<li>`, però també les **descripcions de definicions** `<dd>`.
-
-Un element de llista es representa amb un punt (si està en una llista no ordenada `<ul>`) o amb un número incremental (si es troba dins d'una llista ordenada `<ol>`).
-
-Com que la representació d'aquestes vinyetes i números varia segons els navegadors, i també és difícil d'estilitzar en CSS, la regla `display: list-item` no s'utilitza mai. De fet, és comú que els `<li>`s es representin com a `display: block` o `display: inline`, ja que són més flexibles a l'estil.
-
-### pantalla: cap
-
-Si apliqueu `display: none;` a un element HTML, l'elimina de la vostra pàgina web, com si mai hagués existit al vostre codi.
-
-```css
-.gone-baby-gone{ mostrar: cap;}
-```
-
-```html
-<p>He sentit algú parlar?</p>
-<p class="gone-baby-gone">Hahahahahah</p>
-<p>He d'estar somiant...</p>
-```
-
-<div class="resultat">
-  <p>He sentit algú parlar?</p>
-  <p style="display: none;">Hahahahahah</p>
-  <p>He d'estar somiant...</p>
-</div>
-
-Hi ha 3 paràgrafs al codi, però només n'apareixen 2, com si el 2n no hagués existit mai.
-
-### visibilitat: oculta
-
-La propietat CSS `visibility` és lleugerament semblant a `display`. Aplicar `visibility: hidden;` _amaga_ un element de la vostra pàgina, però només el converteix en **invisible**: encara ocupa l'espai que se suposava.
-
-```css
-.hollow-man{ visibilitat: oculta;}
-```
-
-```html
-<p>Tan lluny de mi </p>
-<p class="hollow-man">Fins ara no puc veure'l</p>
-<p class="hollow-man">Tan lluny de mi</p>
-<p class="hollow-man">Estàs tan lluny de mi</p>
-<p>Estàs tan lluny...</p>
-```
-
-<div class="resultat">
-  <p>Tan lluny de mi </p>
-  <p style="visibility: hidden;">Fins ara no puc veure'l</p>
-  <p style="visibility: hidden;">Tan lluny de mi</p>
-  <p style="visibility: hidden;">Estàs tan lluny de mi</p>
-  <p>Estàs tan lluny...</p>
-</div>
-
-Hi ha 5 paràgrafs al codi, només n'apareixen 2, però l'espai que els paràgrafs ocults haurien d'ocupar _se suposa que_ encara hi és, però no els podeu veure.
----
-maquetació: post
-títol: "CSS <strong>alçada</strong> i <strong>amplada</strong>"
-subtítol: "Configuració de dimensions <strong>fixes</strong> als vostres rectangles"
-secció: css
----
-
-Les dimensions (o alçada i amplada) d'un element són **dinàmiques**, ja que fluctuen per adaptar-se al contingut. D'alguna manera és possible establir dimensions **específiques**.
-
-```css
-blockquote{ amplada: 600px;}
-```
-
-La cita de bloc no ocuparà tota l'amplada disponible, però es mantindrà de 600 píxels d'amplada **en qualsevol situació**:
-
-* si la finestra del navegador és menys ampla que 600 píxels, mostrarà una barra de desplaçament horitzontal
-* si la finestra del navegador és més ampla que 600 px, la cita de bloc es mantindrà 600 px d'ample i no ocuparà tot l'espai
-
-Com que només hem establert l'amplada, la cita de bloc continua sent fluida en **altura**: l'alçada es converteix en la dimensió variable per adaptar-se al contingut de la cita de bloc.
-
-### Configuració tant d'alçada com d'amplada
-
-En establir les dimensions d'un element, es mantindrà fix sense importar la longitud del seu contingut.
-
-Què passa si el contingut és més llarg del que pot contenir l'element?
-{: .question}
-
-Com que evitem que l'element alteri dinàmicament les seves dimensions, hi ha la possibilitat que el contingut sigui més llarg del que l'element s'adapta i que, posteriorment, es **desbordi**.
-
-El comportament predeterminat pot ser sorprenent: el contingut es mostrarà igualment!
-
-```css
-blockquote{ fons: groc; alçada: 50px; amplada: 100 píxels;}
-```
-
-```html
-<blockquote>El contingut... troba una manera</blockquote>
-```
-
-<div class="resultat">
-  <blockquote style="background: yellow; height: 50px; width: 100px;">El contingut és... troba una manera</blockquote>
-</div>
-
-### Desbordament de CSS
-
-La propietat CSS `overflow` ens permet gestionar el cas que el contingut sigui més llarg que el seu contenidor.
-
-El valor per defecte és `visible`: el contingut es mostrarà de totes maneres, perquè _"Per què voldríeu evitar que l'usuari llegeixi contingut si està present al codi?"_. Podeu considerar **HTML com a prevalent a CSS**.
-
-En aplicar `overflow: hidden;`, simplement _prohibeu_ que es vegi qualsevol contingut desbordat.
-
-<div class="resultat">
-  <blockquote style="background: yellow; height: 50px; overflow: hidden; width: 100px;">El contingut és... troba una manera</blockquote>
-</div>
-
-Si voleu que el vostre contingut es desbordi, però encara voleu que sigui accessible, podeu decidir mostrar barres de desplaçament aplicant `desbordament: desplaçament`.
-
-<div class="resultat">
-  <blockquote style="background: yellow; height: 50px; overflow: scroll; width: 100px;">El contingut és... troba una manera</blockquote>
-</div>
-
-Una millor opció és utilitzar `overflow: auto`, ja que les barres de desplaçament només apareixeran _si_ el contingut està desbordant, però romandran ocultes fins aleshores.
-
-<div class="resultat">
-  <blockquote style="background: yellow; height: 50px; overflow: auto; width: 100px;">El contingut és... troba una manera</blockquote>
-</div>
-
-### Compte amb les dimensions fixes
-
-Sovint es requereix l'aplicació de dimensions específiques perquè un disseny sembli visualment atractiu, però pot tenir conseqüències no desitjades. En aquest sentit:
-
-* Assegureu-vos que el vostre contingut no es desbordi
-* si ho fa, utilitzeu "overflow: hidden" o "overflow: auto" per evitar que el vostre disseny es trenqui
 ---
 maquetació: post
 títol: "CSS <strong>borde</strong>"
@@ -692,6 +302,310 @@ Però podeu ometre l'amplada a "border" i configurar-la per separat:
 ```css
 blockquote{ vora: groc sòlid; amplada de la vora: 1px 0;}
 ```
+
+
+--------------------------------
+II
+
+
+
+
+---
+maquetació: post
+títol: "CSS <strong>visualització</strong>"
+subtítol: "Canviar el <strong>tipus</strong> d'un element HTML"
+secció: css
+---
+
+Hem vist com hi ha principalment [2 tipus d'elements HTML](/html-block-inline.html): elements **block-level** i **inline**. També hem esmentat algunes alternatives, com ara **list-item** o **table-cell**.
+
+La propietat `display` permet canviar el _tipus_ de l'element HTML. De manera predeterminada, un paràgraf `<p>` (un element **nivell de bloc**) tindrà un valor de `visualització' predeterminat de `block`, però es pot representar com a **inline**:
+
+```css
+p{ visualització: en línia;}
+```
+
+### Per què no utilitzar un element HTML en línia, com ara `<span>` llavors?
+
+Perquè trieu un element HTML pel seu **significat**, no per la seva representació. Si hem decidit que un paràgraf és el que millor s'adapta al nostre contingut, no hem de canviar l'etiqueta _només amb finalitats d'estil_. CSS és aquí per tenir cura de l'estil.
+
+En resum, `display` permet alterar el **tipus** d'un element _sense_ canviar-ne el **significat**.
+
+Cada opció de "visualització" té comportaments de representació específics:
+
+* `block` ocuparà tota l'amplada disponible
+* `inline` actuarà com a text senzill
+* `inline-block` és, com el seu nom indica, un compost de bloc i comportament en línia, una opció _"el millor dels dos mons"_
+* `list-item` és similar a `block` ja que ocupa tota l'amplada disponible, però mostra una vinyeta addicional
+* "taula", "fila de taula" i "cel·la de taula" tenen un comportament molt específic, encara que inesperat, que permet dissenys més interessants
+
+### visualització: bloqueig
+
+Això convertirà qualsevol element en un element **block**.
+
+Aquesta tècnica s'utilitza sovint als **enllaços** per augmentar la seva zona de clic, que es pot avaluar fàcilment establint un color de fons.
+
+```css
+.menu a{ fons: vermell; color: blanc;}
+```
+
+```html
+<ul class="menu">
+  <li>
+    <a>Inici</a>
+  </li>
+  <li>
+    <a>Funcions</a>
+  </li>
+  <li>
+    <a>Preus</a>
+  </li>
+  <li>
+    <a>Quant a</a>
+  </li>
+</ul>
+```
+
+<div class="resultat">
+  <ul>
+    <li>
+      <a style="background: red; color: white;">Inici</a>
+    </li>
+    <li>
+      <a style="background: red; color: white;">Funcions</a>
+    </li>
+    <li>
+      <a style="background: red; color: white;">Preus</a>
+    </li>
+    <li>
+      <a style="background: red; color: white;">Quant a</a>
+    </li>
+  </ul>
+</div>
+
+Si convertim aquests enllaços en **blocs**, augmentarem la seva àrea objectiu:
+
+```css
+.menu a{ fons: vermell; color: blanc; mostrar: bloc;}
+```
+
+<div class="resultat">
+  <ul>
+    <li>
+      <a style="background: red; color: white; display: block;">Inici</a>
+    </li>
+    <li>
+      <a style="background: red; color: white; display: block;">Funcions</a>
+    </li>
+    <li>
+      <a style="background: red; color: white; display: block;">Preus</a>
+    </li>
+    <li>
+      <a style="background: red; color: white; display: block;">Quant a</a>
+    </li>
+  </ul>
+</div>
+
+
+### pantalla: en línia
+
+Això converteix qualsevol element en elements **inline**, com si només fossin un simple **text**.
+
+Sovint s'utilitza per crear **navegacions horitzontals**, on els **elements de llista** són útils semànticament però no visualment.
+
+```html
+<ul class="menu">
+  <li>
+    <a>Inici</a>
+  </li>
+  <li>
+    <a>Funcions</a>
+  </li>
+  <li>
+    <a>Preus</a>
+  </li>
+  <li>
+    <a>Quant a</a>
+  </li>
+</ul>
+```
+
+<div class="resultat">
+  <ul>
+    <li>
+      <a>Inici</a>
+    </li>
+    <li>
+      <a>Funcions</a>
+    </li>
+    <li>
+      <a>Preus</a>
+    </li>
+    <li>
+      <a>Quant a</a>
+    </li>
+  </ul>
+</div>
+
+```css
+.menu li{ mostrar: en línia;}
+```
+
+<div class="resultat">
+  <ul>
+    <li style="display: inline;">
+      <a>Inici</a>
+    </li>
+    <li style="display: inline;">
+      <a>Funcions</a>
+    </li>
+    <li style="display: inline;">
+      <a>Preus</a>
+    </li>
+    <li style="display: inline;">
+      <a>Quant a</a>
+    </li>
+  </ul>
+</div>
+
+### visualització: element de llista
+
+Els únics elements HTML que es mostren com a "element de llista" són (no és sorprenent) els **elements de la llista** `<li>`, però també les **descripcions de definicions** `<dd>`.
+
+Un element de llista es representa amb un punt (si està en una llista no ordenada `<ul>`) o amb un número incremental (si es troba dins d'una llista ordenada `<ol>`).
+
+Com que la representació d'aquestes vinyetes i números varia segons els navegadors, i també és difícil d'estilitzar en CSS, la regla `display: list-item` no s'utilitza mai. De fet, és comú que els `<li>`s es representin com a `display: block` o `display: inline`, ja que són més flexibles a l'estil.
+
+### pantalla: cap
+
+Si apliqueu `display: none;` a un element HTML, l'elimina de la vostra pàgina web, com si mai hagués existit al vostre codi.
+
+```css
+.gone-baby-gone{ mostrar: cap;}
+```
+
+```html
+<p>He sentit algú parlar?</p>
+<p class="gone-baby-gone">Hahahahahah</p>
+<p>He d'estar somiant...</p>
+```
+
+<div class="resultat">
+  <p>He sentit algú parlar?</p>
+  <p style="display: none;">Hahahahahah</p>
+  <p>He d'estar somiant...</p>
+</div>
+
+Hi ha 3 paràgrafs al codi, però només n'apareixen 2, com si el 2n no hagués existit mai.
+
+### visibilitat: oculta
+
+La propietat CSS `visibility` és lleugerament semblant a `display`. Aplicar `visibility: hidden;` _amaga_ un element de la vostra pàgina, però només el converteix en **invisible**: encara ocupa l'espai que se suposava.
+
+```css
+.hollow-man{ visibilitat: oculta;}
+```
+
+```html
+<p>Tan lluny de mi </p>
+<p class="hollow-man">Fins ara no puc veure'l</p>
+<p class="hollow-man">Tan lluny de mi</p>
+<p class="hollow-man">Estàs tan lluny de mi</p>
+<p>Estàs tan lluny...</p>
+```
+
+<div class="resultat">
+  <p>Tan lluny de mi </p>
+  <p style="visibility: hidden;">Fins ara no puc veure'l</p>
+  <p style="visibility: hidden;">Tan lluny de mi</p>
+  <p style="visibility: hidden;">Estàs tan lluny de mi</p>
+  <p>Estàs tan lluny...</p>
+</div>
+
+Hi ha 5 paràgrafs al codi, només n'apareixen 2, però l'espai que els paràgrafs ocults haurien d'ocupar _se suposa que_ encara hi és, però no els podeu veure.
+---
+maquetació: post
+títol: "CSS <strong>alçada</strong> i <strong>amplada</strong>"
+subtítol: "Configuració de dimensions <strong>fixes</strong> als vostres rectangles"
+secció: css
+---
+
+Les dimensions (o alçada i amplada) d'un element són **dinàmiques**, ja que fluctuen per adaptar-se al contingut. D'alguna manera és possible establir dimensions **específiques**.
+
+```css
+blockquote{ amplada: 600px;}
+```
+
+La cita de bloc no ocuparà tota l'amplada disponible, però es mantindrà de 600 píxels d'amplada **en qualsevol situació**:
+
+* si la finestra del navegador és menys ampla que 600 píxels, mostrarà una barra de desplaçament horitzontal
+* si la finestra del navegador és més ampla que 600 px, la cita de bloc es mantindrà 600 px d'ample i no ocuparà tot l'espai
+
+Com que només hem establert l'amplada, la cita de bloc continua sent fluida en **altura**: l'alçada es converteix en la dimensió variable per adaptar-se al contingut de la cita de bloc.
+
+### Configuració tant d'alçada com d'amplada
+
+En establir les dimensions d'un element, es mantindrà fix sense importar la longitud del seu contingut.
+
+Què passa si el contingut és més llarg del que pot contenir l'element?
+{: .question}
+
+Com que evitem que l'element alteri dinàmicament les seves dimensions, hi ha la possibilitat que el contingut sigui més llarg del que l'element s'adapta i que, posteriorment, es **desbordi**.
+
+El comportament predeterminat pot ser sorprenent: el contingut es mostrarà igualment!
+
+```css
+blockquote{ fons: groc; alçada: 50px; amplada: 100 píxels;}
+```
+
+```html
+<blockquote>El contingut... troba una manera</blockquote>
+```
+
+<div class="resultat">
+  <blockquote style="background: yellow; height: 50px; width: 100px;">El contingut és... troba una manera</blockquote>
+</div>
+
+### Desbordament de CSS
+
+La propietat CSS `overflow` ens permet gestionar el cas que el contingut sigui més llarg que el seu contenidor.
+
+El valor per defecte és `visible`: el contingut es mostrarà de totes maneres, perquè _"Per què voldríeu evitar que l'usuari llegeixi contingut si està present al codi?"_. Podeu considerar **HTML com a prevalent a CSS**.
+
+En aplicar `overflow: hidden;`, simplement _prohibeu_ que es vegi qualsevol contingut desbordat.
+
+<div class="resultat">
+  <blockquote style="background: yellow; height: 50px; overflow: hidden; width: 100px;">El contingut és... troba una manera</blockquote>
+</div>
+
+Si voleu que el vostre contingut es desbordi, però encara voleu que sigui accessible, podeu decidir mostrar barres de desplaçament aplicant `desbordament: desplaçament`.
+
+<div class="resultat">
+  <blockquote style="background: yellow; height: 50px; overflow: scroll; width: 100px;">El contingut és... troba una manera</blockquote>
+</div>
+
+Una millor opció és utilitzar `overflow: auto`, ja que les barres de desplaçament només apareixeran _si_ el contingut està desbordant, però romandran ocultes fins aleshores.
+
+<div class="resultat">
+  <blockquote style="background: yellow; height: 50px; overflow: auto; width: 100px;">El contingut és... troba una manera</blockquote>
+</div>
+
+### Compte amb les dimensions fixes
+
+Sovint es requereix l'aplicació de dimensions específiques perquè un disseny sembli visualment atractiu, però pot tenir conseqüències no desitjades. En aquest sentit:
+
+* Assegureu-vos que el vostre contingut no es desbordi
+* si ho fa, utilitzeu "overflow: hidden" o "overflow: auto" per evitar que el vostre disseny es trenqui
+
+
+
+
+
+
+
+
+
+
 
 ---
 maquetació: capítol
