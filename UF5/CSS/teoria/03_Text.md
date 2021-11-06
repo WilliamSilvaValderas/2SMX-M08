@@ -274,4 +274,12 @@ Només calen els valors `x` i `y`. El "desenfocament" per defecte és `0` (zero)
 
 ## text-transform
 
-TODO
+La propietat `text-transform` modifica l'aparença d'un text per mostrar-lo en majúscules i/o minúscules. Els valors possible són:
+
+* `uppercase`
+* `lowercase`
+* `capitalize` (transforma la primera lletra de cada paraula en majúscula)
+
+```css
+h1, h2{ text-transform: capitalize;}
+```
