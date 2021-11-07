@@ -9,6 +9,7 @@
 * [02. Colors i Mides](./teoria/02_Colors_i_Mides.pdf)
 * [03. Text](./teoria/03_Text.pdf)
 * [04. Fons, marges i vores](./teoria/04_Fons_marges_vores.pdf)
+* [05. Display, width i height](./teoria/05_Display_width_height.pdf)
 
 ### Extensions i paràmetres de Visual Code
 

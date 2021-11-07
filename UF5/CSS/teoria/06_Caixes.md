@@ -20,6 +20,6 @@ Amb **CSS** podem cambiar aquest comportament dels elements.
 
 Un element a nivell de bloc, com un paràgraf, ocuparà **horitzontalment** tot l'espai que pugui, que per defecte és l'amplada del vostre navegador. Verticalment, el paràgraf adaptarà la seva alçada a l'espai del seu contingut.
 
-Es tenen en compte molts paràmetres: la mida del contingut, el tipus de lletra utilitzat, la seva mida, el seu espaiat, els marges, les vores i el posicionament que té assignat (amb CCS, veurem com)
+Es tenen en compte molts paràmetres: la mida del contingut, el tipus de lletra utilitzat, la seva mida, el seu espaiat, els marges, les vores i el posicionament que té assignat.
 
 ---
