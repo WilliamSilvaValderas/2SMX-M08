@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="ca">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Lloc web d'Alfonso: presentació</title>
+    <style>
+        nav {
+            margin: 10px 0px 10px 0px;
+        }
+
+        nav a {
+            border: 1px solid red;
+            background-color: lightcoral;
+            padding: 5px;
+            text-decoration: none;
+            color: yellow;
+            font-weight: bold;
+        }
+
+        nav #pagina-actual {
+            background-color: gray;
+            border: 1px solid lightcoral;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+            background-color: yellow;
+            color: lightcoral;
+        }
+
+        .imatge {
+            margin: 5px 0px 5px 0px;
+        }
+
+        .imatge img {
+            border: 1px solid gray;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Lloc web d'Alfonso</h1>
+        <nav>
+            <a href="index.html">Inici</a>
+            <a id="pagina-actual" href="presentacio.html">Sobre mi</a>
+            <a href="horari.html">Horari</a>
+        </nav>
+    </header>
+    <article>
+        <h2>Sobre mi</h2>
+        <p>I aquí hi hauria el contingut de la <a href="https://moodle.insjoaquimmir.cat/mod/assign/view.php?id=42429">pràctica 3</a></p>
+        <div class="imatge">
+            <img src="img/under-construction-site.jpg" alt="Pàgina web en construcció">
+        </div>
+    </article>
+    <footer>
+        <p>
+            Web feta per <a href="mailto:alfonso.dasilva@insjoaquimmir.cat">Alfonso</a>
+            |
+            <!-- inici del codi del validador -->
+            <a href="#" onclick='obrir_validador()'>Valida aquesta pàgina</a>
+            <script>
+                function obrir_validador() {
+                    window.open("https://html5.validator.nu/?doc=" + encodeURI(window.location.href));
+                }
+            </script>
+            <!-- final del codi del validador -->
+        </p>    </footer>
+</body>
+
+</html>

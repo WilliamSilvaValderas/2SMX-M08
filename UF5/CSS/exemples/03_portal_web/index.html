@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html lang="ca">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Lloc web d'Alfonso: inici</title>
+    <style>
+        body {
+            background-color: whitesmoke;
+        }
+        nav {
+            margin: 10px 0px 10px 0px;
+        }
+
+        nav a {
+            border: 1px solid red;
+            background-color: lightcoral;
+            padding: 5px;
+            text-decoration: none;
+            color: yellow;
+            font-weight: bold;
+        }
+
+        nav #pagina-actual {
+            background-color: gray;
+            border: 1px solid lightcoral;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+            background-color: yellow;
+            color: lightcoral;
+        }
+
+        .social {
+            list-style-type: none;
+            margin-bottom: 2em;
+        }
+
+        .links a {
+            text-decoration: none;
+            color: white;
+            background-color: darkslateblue;
+            border: 1px solid white;
+
+            font-size: 1.5em;
+            display: inline-block;
+            padding: 0.1em;
+        }
+
+        .links a:hover {
+            color: darkslateblue;
+            background-color: white;
+            border: 1px solid darkslateblue;
+        }
+
+        .links li {
+            margin-top: 1em;
+        }
+
+    </style>
+    <!-- FONT AWESOME PER LES ICONES DE LES PRÀCTIQUES -->
+    <script src="https://kit.fontawesome.com/2dab403fc0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Lloc web d'Alfonso</h1>
+        <nav>
+            <a id="pagina-actual" href="index.html">Inici</a>
+            <a href="presentacio.html">Sobre mi</a>
+            <a href="horari.html">Horari</a>
+        </nav>
+    </header>
+    <article>
+        <h2>Benvinguts al meu lloc web!</h2>
+        <h3>Les meves pràctiques:</h3>
+        <ul class="links">
+            <li><a href="practica-10/"><i class="fas fa-check-square"></i> Pràctica 10</a></li>
+            <li><a href="practica-11/"><i class="fas fa-check-square"></i> Pràctica 11</a></li>
+        </ul>
+    </article>
+    <footer>
+        <p>
+            Web feta per <a href="mailto:alfonso.dasilva@insjoaquimmir.cat">Alfonso</a>
+            |
+            <!-- inici del codi del validador -->
+            <a href="#" onclick='obrir_validador()'>Valida aquesta pàgina</a>
+            <script>
+                function obrir_validador() {
+                    window.open("https://html5.validator.nu/?doc=" + encodeURI(window.location.href));
+                }
+            </script>
+            <!-- final del codi del validador -->
+        </p>
+    </footer>
+</body>
+
+</html>

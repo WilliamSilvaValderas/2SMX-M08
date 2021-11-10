@@ -66,6 +66,22 @@ Els degradats de fons es consideren **imatges de fons**:
 
 ```css
 body{ background-image: linear-gradient(white, grey);}
+
+```
+
+---
+
+## background-repeat
+
+Per defecte, una imatge de fons es repetirà indefinidament. Podeu triar que es repeteixi només horitzontalment, només verticalment o no.
+
+```css
+/* Només horitzontalment */
+body{ background-repeat: repeat-x;} 
+/* Només verticalment */
+body{ background-repeat: repeat-y;}
+/* La imatge de fons només apareixerà una vegada */
+body{ background-repeat: no-repeat;} 
 ```
 
 ---
@@ -86,27 +102,13 @@ body{ background-position: right bottom;}
 
 ---
 
-## background-repeat
-
-Per defecte, una imatge de fons es repetirà indefinidament. Podeu triar que es repeteixi només horitzontalment, només verticalment o no.
-
-```css
-/* Només horitzontalment */
-body{ background-repeat: repeat-x;} 
-/* Només verticalment */
-body{ background-repeat: repeat-y;}
-/* La imatge de fons només apareixerà una vegada */
-body{ background-repeat: no-repeat;} 
-```
-
----
-
 ## Altres propietats de background
 
 Hi ha altres [propietats de background](https://www.w3schools.com/cssref/css3_pr_background.asp) que podeu fer servir:
 
 * [background-attachment](https://www.w3schools.com/cssref/pr_background-attachment.asp)
 * [background-size](https://www.w3schools.com/cssref/css3_pr_background-size.asp)
+* [opacity](https://www.w3schools.com/css/css_image_transparency.asp)
 
 ---
 
@@ -166,7 +168,7 @@ div{
 
 ## padding
 
-El **marge** és l'espai entre la _vora_ d'un element i el seu _contingut_.
+El **padding** és l'espai entre la _vora_ d'un element i el seu _contingut_.
 
 ```css
 div { padding: 20px;}
