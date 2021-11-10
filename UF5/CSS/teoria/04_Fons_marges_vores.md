@@ -108,7 +108,6 @@ Hi ha altres [propietats de background](https://www.w3schools.com/cssref/css3_pr
 
 * [background-attachment](https://www.w3schools.com/cssref/pr_background-attachment.asp)
 * [background-size](https://www.w3schools.com/cssref/css3_pr_background-size.asp)
-* [opacity](https://www.w3schools.com/css/css_image_transparency.asp)
 
 ---
 
